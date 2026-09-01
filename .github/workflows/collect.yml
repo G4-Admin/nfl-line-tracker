@@ -1,0 +1,49 @@
+name: Collect NFL lines
+
+on:
+  schedule:
+    # 09:00 America/Denver during MDT (15:00 UTC). GitHub cron is UTC-only and
+    # can run a few minutes late; that is fine for a daily snapshot.
+    - cron: "0 15 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --quiet openpyxl
+
+      - name: Pull odds
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          SEASON_ANCHOR: ${{ vars.SEASON_ANCHOR || '2026-09-08' }}
+        run: python scripts/collect.py
+
+      - name: Rebuild master spreadsheet
+        run: python scripts/build_sheet.py
+
+      - name: Commit
+        run: |
+          git config user.name  "nfl-line-tracker"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No change."
+          else
+            git commit -m "lines: $(date -u +%Y-%m-%d)"
+            git push
+          fi
