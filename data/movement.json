@@ -1,26 +1,40 @@
 {
- "generated_at": "2026-09-04T17:57:32+00:00",
- "date": "2026-09-04",
+ "generated_at": "2026-09-05T17:02:59+00:00",
+ "date": "2026-09-05",
  "games_tracked": 272,
  "quota": {
-  "remaining": "496",
-  "used": "4",
+  "remaining": "495",
+  "used": "5",
   "cost": "1"
  },
  "movers": [
   {
-   "game_id": "d8cd12e7684fa2aa39f5b188ef6e62e0",
-   "week": 15,
-   "matchup": "New York Jets @ Arizona Cardinals",
-   "commence_time": "2026-12-20T21:05:00Z",
+   "game_id": "acc580d74344ea3b31bbcdd057fe6a9c",
+   "week": 1,
+   "matchup": "San Francisco 49ers @ Los Angeles Rams",
+   "commence_time": "2026-09-11T00:35:00Z",
    "event": "move",
-   "open": -1.5,
-   "prev": -1.5,
-   "current": 1.5,
-   "delta": 3.0,
-   "delta_from_open": 3.0,
+   "open": -3.5,
+   "prev": -4.0,
+   "current": -3.5,
+   "delta": 0.5,
+   "delta_from_open": 0.0,
    "crossed": null,
-   "book_spread": 0.0
+   "book_spread": 0.5
+  },
+  {
+   "game_id": "fc362aff0d889ec52d358307a70c32ed",
+   "week": 1,
+   "matchup": "Chicago Bears @ Carolina Panthers",
+   "commence_time": "2026-09-13T17:00:00Z",
+   "event": "key_number",
+   "open": 2.5,
+   "prev": 2.5,
+   "current": 3.0,
+   "delta": 0.5,
+   "delta_from_open": 0.5,
+   "crossed": 3,
+   "book_spread": 0.5
   }
  ]
 }
