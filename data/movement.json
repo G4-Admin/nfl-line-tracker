@@ -1,40 +1,26 @@
 {
- "generated_at": "2026-09-05T17:02:59+00:00",
- "date": "2026-09-05",
+ "generated_at": "2026-09-06T17:26:54+00:00",
+ "date": "2026-09-06",
  "games_tracked": 272,
  "quota": {
-  "remaining": "495",
-  "used": "5",
+  "remaining": "494",
+  "used": "6",
   "cost": "1"
  },
  "movers": [
   {
-   "game_id": "acc580d74344ea3b31bbcdd057fe6a9c",
-   "week": 1,
-   "matchup": "San Francisco 49ers @ Los Angeles Rams",
-   "commence_time": "2026-09-11T00:35:00Z",
+   "game_id": "fbffd0b7722fd81d68d5d62472dc80e8",
+   "week": 5,
+   "matchup": "New York Giants @ Washington Commanders",
+   "commence_time": "2026-10-11T17:00:00Z",
    "event": "move",
-   "open": -3.5,
-   "prev": -4.0,
-   "current": -3.5,
-   "delta": 0.5,
+   "open": -2.5,
+   "prev": -2.0,
+   "current": -2.5,
+   "delta": -0.5,
    "delta_from_open": 0.0,
    "crossed": null,
-   "book_spread": 0.5
-  },
-  {
-   "game_id": "fc362aff0d889ec52d358307a70c32ed",
-   "week": 1,
-   "matchup": "Chicago Bears @ Carolina Panthers",
-   "commence_time": "2026-09-13T17:00:00Z",
-   "event": "key_number",
-   "open": 2.5,
-   "prev": 2.5,
-   "current": 3.0,
-   "delta": 0.5,
-   "delta_from_open": 0.5,
-   "crossed": 3,
-   "book_spread": 0.5
+   "book_spread": 0.0
   }
  ]
 }
