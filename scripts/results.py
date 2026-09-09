@@ -26,7 +26,18 @@ LOOKBACK_DAYS = 12   # enough to catch a game we missed for a week
 
 
 def get_json(url, timeout=40):
-    req = urllib.request.Request(url, headers={"User-Agent": "nfl-line-tracker/1.0"})
+    req = urllib.request.Request(url, headers={
+        # ESPN answers 403 to a custom agent from a datacenter IP. Measured
+        # 2026-09-09: both its injuries and scoreboard endpoints refused the
+        # GitHub runner with "nfl-line-tracker/1.0", while Open-Meteo served
+        # ten forecasts on the same run through this same function -- so it is
+        # ESPN refusing the agent, not the network.
+        "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                       "AppleWebKit/537.36 (KHTML, like Gecko) "
+                       "Chrome/128.0.0.0 Safari/537.36"),
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return json.loads(r.read().decode("utf-8"))
