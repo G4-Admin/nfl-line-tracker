@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-09T19:43:19+00:00",
+ "generated_at": "2026-09-09T19:53:27+00:00",
  "date": "2026-09-09",
  "games_tracked": 270,
  "quota": {
-  "remaining": "490",
-  "used": "10",
+  "remaining": "489",
+  "used": "11",
   "cost": "1"
  },
  "movers_researchable": 1,
