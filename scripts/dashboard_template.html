@@ -18,6 +18,8 @@
     --flat: #6f7370;
     --warn: #fab219;
     --warn-ink: #7a5200;
+    --alert: #c0392f;
+    --alert-ink: #96271f;
     --home-wash: rgba(42, 120, 214, .14);
     --away-wash: rgba(201, 67, 47, .14);
     --shadow: 0 1px 2px rgba(19, 23, 26, .06);
@@ -40,6 +42,8 @@
       --flat: #8d918a;
       --warn: #fab219;
       --warn-ink: #fab219;
+      --alert: #e0655c;
+      --alert-ink: #e0655c;
       --home-wash: rgba(74, 144, 226, .20);
       --away-wash: rgba(212, 84, 74, .20);
       --shadow: 0 1px 2px rgba(0, 0, 0, .4);
@@ -62,6 +66,8 @@
     --flat: #8d918a;
     --warn: #fab219;
     --warn-ink: #fab219;
+    --alert: #e0655c;
+    --alert-ink: #e0655c;
     --home-wash: rgba(74, 144, 226, .20);
     --away-wash: rgba(212, 84, 74, .20);
     --shadow: 0 1px 2px rgba(0, 0, 0, .4);
@@ -201,6 +207,123 @@
     border: 1px solid var(--rule-strong); border-radius: 2px; padding: 3px 5px;
   }
 
+  .game.picked { background: var(--surface); box-shadow: inset 3px 0 0 var(--accent); padding-left: 12px; }
+  .pickchip {
+    font: 600 10px/1 "IBM Plex Mono", monospace; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--on-accent); background: var(--accent);
+    border: 1px solid var(--accent); border-radius: 2px; padding: 4px 6px;
+  }
+
+  .slate.provisional { border-color: var(--rule-strong); }
+  .slate.provisional > header { background: var(--surface-2); }
+  .statechip {
+    font: 600 10px/1 "IBM Plex Mono", monospace; letter-spacing: .08em;
+    text-transform: uppercase; border-radius: 2px; padding: 4px 7px;
+    color: var(--on-accent); background: var(--accent); border: 1px solid var(--accent);
+  }
+  .statechip.prov {
+    color: var(--warn-ink); background: transparent; border-color: var(--warn);
+  }
+  .provnote {
+    padding: 11px 16px; border-bottom: 1px solid var(--rule);
+    font-size: 13.5px; line-height: 1.55; color: var(--ink-2);
+  }
+  .provnote b { color: var(--ink); }
+
+  .slate {
+    margin: 22px 0 0; border: 1px solid var(--accent); border-radius: 2px;
+    background: var(--surface); box-shadow: var(--shadow); overflow: hidden;
+  }
+  .slate > header {
+    padding: 13px 16px; border-bottom: 1px solid var(--rule);
+    display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline;
+  }
+  .slate > header h2 {
+    font: 700 25px/1 "Barlow Condensed", sans-serif; letter-spacing: .02em; margin: 0;
+  }
+  .slate > header .meta {
+    font: 500 11.5px/1.4 "IBM Plex Mono", monospace; color: var(--ink-3);
+  }
+  .slate > header .meta b { color: var(--ink-2); }
+  .pick {
+    padding: 13px 16px; border-bottom: 1px solid var(--rule);
+    display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 4px 16px;
+  }
+  .pick:last-of-type { border-bottom: none; }
+  .pick .name {
+    font: 600 19px/1.15 "Barlow Condensed", sans-serif; letter-spacing: .02em;
+  }
+  .pick .nums {
+    font: 500 12px/1 "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums;
+    color: var(--ink-3); white-space: nowrap; text-align: right;
+  }
+  .pick .nums b { color: var(--ink); font-size: 14px; }
+  .pick ul { grid-column: 1 / -1; margin: 6px 0 0; padding: 0; list-style: none;
+             display: flex; flex-direction: column; gap: 5px; }
+  .pick li {
+    font-size: 13.5px; line-height: 1.5; color: var(--ink-2);
+    padding-left: 13px; position: relative;
+  }
+  .pick li::before {
+    content: ""; position: absolute; left: 0; top: .62em;
+    width: 5px; height: 5px; border-radius: 50%; background: var(--rule-strong);
+  }
+  .pick li.price::before { background: var(--accent); }
+  .pick li.key_number::before, .pick li.push_risk::before { background: var(--warn); }
+  .pick li.context::before { background: var(--alert); }
+  .slate footer {
+    padding: 12px 16px; background: var(--surface-2);
+    font-size: 13.5px; color: var(--ink-2); line-height: 1.55;
+  }
+  .slate footer b { color: var(--ink); }
+
+  /* ---------- scorecard ---------- */
+  .score { margin: 22px 0 0; border: 1px solid var(--rule); border-radius: 2px;
+           background: var(--surface); box-shadow: var(--shadow); }
+  .score > header { padding: 13px 16px; border-bottom: 1px solid var(--rule);
+                    display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; }
+  .score > header h2 { font: 700 25px/1 "Barlow Condensed", sans-serif;
+                       letter-spacing: .02em; margin: 0; }
+  .score > header .meta { font: 500 11.5px/1.4 "IBM Plex Mono", monospace;
+                          color: var(--ink-3); }
+  .score .body { padding: 14px 16px; display: flex; flex-direction: column; gap: 14px; }
+  .rowline { display: grid; grid-template-columns: 78px 128px 1fr; gap: 12px;
+             align-items: center; }
+  .rowline .who { font: 600 15px/1 "Barlow Condensed", sans-serif;
+                  letter-spacing: .04em; text-transform: uppercase; }
+  .rowline .rec { font: 500 12.5px/1.35 "IBM Plex Mono", monospace;
+                  font-variant-numeric: tabular-nums; color: var(--ink-2); }
+  .rowline .rec b { color: var(--ink); font-size: 14px; }
+  .score .caveat { padding: 12px 16px; background: var(--surface-2);
+                   font-size: 13.5px; line-height: 1.55; color: var(--ink-2); }
+  .score .caveat b { color: var(--ink); }
+  .h2h { padding: 0 16px 14px; font-size: 13.5px; line-height: 1.55; color: var(--ink-2); }
+  .h2h b { color: var(--ink); }
+  .calib { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  .calib th, .calib td { padding: 5px 8px; text-align: left; white-space: nowrap;
+                         border-bottom: 1px solid var(--rule); }
+  .calib th { font: 600 10px/1 "IBM Plex Mono", monospace; letter-spacing: .07em;
+              text-transform: uppercase; color: var(--ink-3); }
+  .calib td.n { font-family: "IBM Plex Mono", monospace;
+                font-variant-numeric: tabular-nums; }
+
+  .ctx { grid-column: 1 / -1; display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+  .ctx .c {
+    font: 500 11px/1.35 "IBM Plex Mono", monospace;
+    border: 1px solid var(--rule-strong); border-radius: 2px;
+    padding: 4px 7px; color: var(--ink-2); display: inline-flex; gap: 6px;
+  }
+  .ctx .c b { font-weight: 600; color: var(--ink); }
+  .ctx .c .who { color: var(--ink-3); }
+  .ctx .c.out    { border-color: var(--alert); color: var(--alert-ink); }
+  .ctx .c.doubt  { border-color: var(--warn);  color: var(--warn-ink); }
+  .ctx .c.wind   { border-color: var(--warn);  color: var(--warn-ink); }
+  .ctx .c.fresh::after {
+    content: "new"; font-size: 9px; letter-spacing: .08em; text-transform: uppercase;
+    background: var(--alert); color: var(--bg); padding: 1px 4px; border-radius: 2px;
+    align-self: center;
+  }
+
   .note {
     grid-column: 1 / -1; margin: 4px 0 0; padding: 9px 12px;
     background: var(--surface-2); border-radius: 2px;
@@ -280,6 +403,7 @@
     <span id="weekchips" style="display:flex;gap:6px;flex-wrap:wrap"></span>
     <span class="spacer"></span>
     <button class="chip" id="moversOnly" aria-pressed="false">Movers only</button>
+    <button class="chip" id="liveOnly" aria-pressed="false">Something live</button>
     <label class="ctl-label" for="sort">Sort</label>
     <select class="chip" id="sort">
       <option value="kick">Kickoff</option>
@@ -293,6 +417,9 @@
     <h2>Latest run</h2>
     <p id="digestText"></p>
   </section>
+
+  <section class="slate" id="slate" hidden></section>
+  <section class="score" id="score" hidden></section>
 
   <main id="board"></main>
   <div id="tableview" hidden></div>
@@ -315,10 +442,24 @@
          that is where a half point actually changes what a ticket is worth.</p>
     </div>
     <div>
-      <h3>Openers</h3>
-      <p>Games marked <b>baseline</b> were already on the board when tracking started, so their
-         "open" is the first line this tracker saw, not the true opener. Everything captured
-         since is a genuine first publish.</p>
+      <h3>Which baseline</h3>
+      <p>Movement is measured from the consensus on the <b>Tuesday that opens each game's own
+         week</b> — after Monday night resolves the previous week and books repost. A game
+         whose week hasn't arrived shows its September lookahead number instead and is marked
+         <b>pre-week</b>; drift from a lookahead line is the market learning the teams, not
+         news, so it is never counted as movement.</p>
+    </div>
+    <div>
+      <h3>What context is shown</h3>
+      <p>Quarterbacks at any designation, other premium positions only when out or doubtful,
+         and wind at outdoor venues inside ten days. Tagged <b>new</b> if the designation
+         changed in the last three days.</p>
+    </div>
+    <div>
+      <h3>What is deliberately absent</h3>
+      <p>No ATS records, no points per game, no rest or bye angles. Season-long stats are
+         already inside the line before you see it, and the bye-week edge has tested flat
+         since the 2011 CBA. Only things that can still change the number appear here.</p>
     </div>
   </section>
 </div>
@@ -342,22 +483,55 @@ const kickText = (iso) => {
   });
 };
 
-const state = { week: "all", moversOnly: false, sort: "kick", table: false };
+const POS = {
+  "Quarterback": "QB", "Running Back": "RB", "Wide Receiver": "WR", "Tight End": "TE",
+  "Left Tackle": "LT", "Offensive Tackle": "OT", "Center": "C", "Guard": "G",
+  "Offensive Lineman": "OL", "Cornerback": "CB", "Safety": "S", "Linebacker": "LB",
+  "Defensive End": "DE", "Defensive Tackle": "DT", "Edge": "EDGE",
+  "Place Kicker": "K", "Punter": "P",
+};
+const abbrev = (p) => POS[p] || p;
+
+const PICKS = DATA.picks || null;
+const PICKED = new Set((PICKS?.picks || []).map((p) => p.game_id));
+
+const state = { week: "all", moversOnly: false, liveOnly: false, sort: "kick", table: false };
+
+// A designation is "new" if it changed in the last three days -- roughly the
+// window between the pool line being frozen and picks being due.
+function freshCutoff() {
+  const d = new Date(DATA.generated_at);
+  d.setDate(d.getDate() - 3);
+  return d.toISOString().slice(0, 10);
+}
 
 const games = Object.values(DATA.games).map((g) => {
-  const open = g.opened.consensus;
+  const open = g.opened.consensus;              // September lookahead number
+  const wo = g.week_open ? g.week_open.consensus : null;  // this week's Tuesday
   const now = g.current.consensus;
-  const delta = Math.round((now - open) * 10) / 10;
+  const inWeek = wo !== null;
+  // Movement is measured from the week's own baseline. Before a game's week
+  // opens there is no meaningful movement to report -- only months of lookahead
+  // drift, which is the market learning who these teams are, not news.
+  const delta = inWeek ? Math.round((now - wo) * 10) / 10 : null;
+  const drift = Math.round((now - open) * 10) / 10;
+  const base = inWeek ? wo : open;
   const hist = g.history;
   let lastMoveDate = null;
   for (let i = hist.length - 1; i > 0; i--) {
     if (hist[i].consensus !== hist[i - 1].consensus) { lastMoveDate = hist[i].date; break; }
   }
-  const crossed = [3, 7].filter((k) => {
-    const [lo, hi] = [Math.abs(open), Math.abs(now)].sort((a, b) => a - b);
+  const crossed = !inWeek ? [] : [3, 7].filter((k) => {
+    const [lo, hi] = [Math.abs(wo), Math.abs(now)].sort((a, b) => a - b);
     return lo < k && k <= hi;
   });
-  return { ...g, open, now, delta, crossed, lastMoveDate,
+  const ctx = (DATA.context && DATA.context[g.game_id]) || null;
+  const inj = ctx ? [].concat(ctx.injuries?.home || [], ctx.injuries?.away || []) : [];
+  const windy = !!(ctx && ctx.weather && ctx.weather.windy);
+  const liveQb = inj.some((p) => p.tier === 1);
+  return { ...g, open, wo, now, inWeek, delta, drift, base, crossed,
+           lastMoveDate, ctx, inj, windy,
+           live: liveQb || windy || inj.some((p) => p.status === "Out"),
            notes: (DATA.notes && DATA.notes[g.game_id]) || [] };
 });
 
@@ -365,17 +539,17 @@ const games = Object.values(DATA.games).map((g) => {
 function spark(g) {
   const W = 150, H = 38, PAD = 3;
   const vals = g.history.map((p) => p.consensus);
-  const lo = Math.min(...vals, g.open), hi = Math.max(...vals, g.open);
+  const lo = Math.min(...vals, g.base), hi = Math.max(...vals, g.base);
   const span = Math.max(hi - lo, 1);
   const mid = (lo + hi) / 2;
   const yLo = mid - span * 0.72, yHi = mid + span * 0.72;
   const x = (i) => PAD + (i * (W - PAD * 2)) / Math.max(vals.length - 1, 1);
   const y = (v) => H - PAD - ((v - yLo) / (yHi - yLo)) * (H - PAD * 2);
 
-  const dir = g.delta === 0 ? "flat" : g.delta < 0 ? "home" : "away";
+  const dir = !g.inWeek || g.delta === 0 ? "flat" : g.delta < 0 ? "home" : "away";
   const stroke = `var(--${dir})`;
   const wash = dir === "flat" ? "var(--rule)" : `var(--${dir}-wash)`;
-  const yOpen = y(g.open);
+  const yOpen = y(g.base);
 
   const line = vals.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("");
   const area = `${line}L${x(vals.length - 1).toFixed(1)},${yOpen.toFixed(1)}L${x(0).toFixed(1)},${yOpen.toFixed(1)}Z`;
@@ -413,8 +587,10 @@ function spark(g) {
 
 /* ---------- rows ---------- */
 function gameRow(g) {
-  const dir = g.delta === 0 ? "flat" : g.delta < 0 ? "home" : "away";
-  const toward = g.delta === 0 ? "no move"
+  const dir = !g.inWeek || g.delta === 0 ? "flat"
+            : g.delta < 0 ? "home" : "away";
+  const toward = !g.inWeek ? "week not open"
+    : g.delta === 0 ? "no move"
     : `${fmtSpread(Math.abs(g.delta))} to ${short(g.delta < 0 ? g.home_team : g.away_team)}`;
   const favNow = g.now < 0 ? "home" : g.now > 0 ? "away" : null;
 
@@ -423,14 +599,21 @@ function gameRow(g) {
 
   const keyChips = g.crossed.map((k) =>
     `<span class="keychip" title="The line crossed a key number">&#9650; crossed ${k}</span>`).join("");
-  const baseline = g.opened.source === "baseline_at_setup"
-    ? `<span class="tag" title="Line was already posted when tracking began">baseline open</span>` : "";
+  const baseline = g.inWeek
+    ? `<span class="tag" title="The consensus on the Tuesday this game's week opened">`
+      + `week open ${g.week_open.date} &middot; ${fmtLine(g, g.wo)}</span>`
+    : `<span class="tag" title="A lookahead number posted before the season. Movement from `
+      + `here is the market learning the teams, not news about this game.">`
+      + `pre-week &middot; lookahead ${fmtLine(g, g.open)}`
+      + (g.drift !== 0 ? ` (${fmtSpread(g.drift)} since)` : "") + `</span>`;
 
   const notes = g.notes.slice().sort((a, b) => b.date.localeCompare(a.date));
   let noteHtml;
   if (!notes.length) {
-    noteHtml = `<div class="note empty">${g.delta === 0
-      ? "Sitting on its opening number — nothing to explain."
+    noteHtml = `<div class="note empty">${!g.inWeek
+      ? "This game's week hasn't opened yet — nothing to explain until Tuesday."
+      : g.delta === 0
+      ? "Sitting on its week-opening number — nothing to explain."
       : "Moved, but no explanation logged for it yet."}</div>`;
   } else {
     const prior = notes.slice(1);
@@ -441,16 +624,41 @@ function gameRow(g) {
     </div>`;
   }
 
-  return `<article class="game">
+  const sideOf = (p) => (g.ctx?.injuries?.home || []).includes(p)
+    ? short(g.home_team) : short(g.away_team);
+  let ctxHtml = "";
+  if (g.ctx) {
+    const chips = [];
+    for (const p of g.inj) {
+      const cls = p.status === "Out" || p.status === "Injured Reserve" ? "out"
+                : p.status === "Doubtful" ? "doubt" : "";
+      const fresh = p.changed_on && p.changed_on >= freshCutoff() ? " fresh" : "";
+      chips.push(`<span class="c ${cls}${fresh}"><span class="who">${sideOf(p)}</span>`
+        + `<b>${abbrev(p.position)}</b> ${p.name}`
+        + ` &middot; ${p.status}</span>`);
+    }
+    const w = g.ctx.weather;
+    if (w && !w.roofed && w.wind_mph != null) {
+      chips.push(`<span class="c ${w.windy ? "wind" : ""}"><b>Wind</b> ${Math.round(w.wind_mph)} mph`
+        + (w.gust_mph ? ` &middot; gusts ${Math.round(w.gust_mph)}` : "")
+        + (w.temp_f != null ? ` &middot; ${Math.round(w.temp_f)}&deg;` : "") + `</span>`);
+    } else if (w && w.roofed) {
+      chips.push(`<span class="c"><b>Indoors</b></span>`);
+    }
+    if (chips.length) ctxHtml = `<div class="ctx">${chips.join("")}</div>`;
+  }
+
+  const isPick = PICKED.has(g.game_id);
+  return `<article class="game${isPick ? " picked" : ""}">
     <div class="matchup">
       <div class="kick">${kickText(g.commence_time)}</div>
       <div class="teams">${away}<span class="at">at</span>${home}</div>
-      <div class="badges">${keyChips}${baseline}
+      <div class="badges">${isPick ? `<span class="pickchip">pick</span>` : ""}${keyChips}${baseline}
         <span class="tag">${g.history.length} day${g.history.length > 1 ? "s" : ""} tracked</span>
       </div>
     </div>
     <div class="lines">
-      <span class="open">${fmtLine(g, g.open)}</span>
+      <span class="open">${fmtLine(g, g.base)}</span>
       <span class="arrow">&rarr;</span>
       <span class="now">${fmtLine(g, g.now)}</span>
     </div>
@@ -458,6 +666,7 @@ function gameRow(g) {
       ${spark(g)}
       <span class="delta ${dir}">${toward}</span>
     </div>
+    ${ctxHtml}
     ${noteHtml}
   </article>`;
 }
@@ -465,10 +674,11 @@ function gameRow(g) {
 /* ---------- render ---------- */
 function visible() {
   let list = games.filter((g) => state.week === "all" || String(g.week) === state.week);
-  if (state.moversOnly) list = list.filter((g) => g.delta !== 0);
+  if (state.moversOnly) list = list.filter((g) => g.inWeek && g.delta !== 0);
+  if (state.liveOnly) list = list.filter((g) => g.live);
   const by = {
     kick: (a, b) => a.commence_time.localeCompare(b.commence_time),
-    move: (a, b) => Math.abs(b.delta) - Math.abs(a.delta),
+    move: (a, b) => Math.abs(b.delta ?? 0) - Math.abs(a.delta ?? 0),
     recent: (a, b) => (b.lastMoveDate || "").localeCompare(a.lastMoveDate || ""),
   }[state.sort];
   return list.sort(by);
@@ -485,9 +695,13 @@ function renderBoard() {
     const weeks = [...new Set(list.map((g) => g.week))];
     board.innerHTML = weeks.map((w) => {
       const rows = list.filter((g) => g.week === w);
-      const moved = rows.filter((g) => g.delta !== 0).length;
+      const live = rows.filter((g) => g.inWeek);
+      const moved = live.filter((g) => g.delta !== 0).length;
+      const label = live.length
+        ? `${moved} of ${live.length} moved since Tuesday`
+        : `week not open yet &middot; lookahead lines only`;
       return `<div class="weekhead"><h2>Week ${w ?? "?"}</h2>
-        <span>${rows.length} games &middot; ${moved} moved off the open</span></div>
+        <span>${rows.length} games &middot; ${label}</span></div>
         ${rows.map(gameRow).join("")}`;
     }).join("");
   } else {
@@ -507,7 +721,7 @@ function renderTable() {
         <td class="num">${p.consensus.toFixed(1)}</td>
         <td>${fmtLine(g, p.consensus)}</td>
         <td class="num">${prev === null ? "" : fmtSpread(Math.round((p.consensus - prev) * 10) / 10)}</td>
-        <td class="num">${fmtSpread(Math.round((p.consensus - g.open) * 10) / 10)}</td>
+        <td class="num">${g.inWeek ? fmtSpread(Math.round((p.consensus - g.wo) * 10) / 10) : ""}</td>
         <td class="num">${p.n_books ?? ""}</td>
       </tr>`);
       prev = p.consensus;
@@ -515,7 +729,7 @@ function renderTable() {
   }
   $("#tableview").innerHTML = `<div class="tablewrap"><table>
     <thead><tr><th>Date</th><th>Wk</th><th>Away</th><th>Home</th><th>Consensus</th>
-    <th>Line</th><th>Chg</th><th>vs open</th><th>Books</th></tr></thead>
+    <th>Line</th><th>Chg</th><th>vs wk open</th><th>Books</th></tr></thead>
     <tbody>${rows.join("")}</tbody></table></div>`;
 }
 
@@ -539,20 +753,133 @@ function wireSparks() {
   });
 }
 
+// Interval bar. Drawn rather than described because two overlapping intervals
+// make the "we cannot tell yet" point instantly, where a percentage does not.
+function intervalBar(pct, lo, hi) {
+  const W = 300, H = 30, PAD = 6, x = (v) => PAD + (v / 100) * (W - PAD * 2);
+  if (pct === null || pct === undefined) {
+    return `<div class="rec">not enough graded yet</div>`;
+  }
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="win rate ${pct}%, plausible range ${lo} to ${hi}%">
+    <line x1="${PAD}" x2="${W - PAD}" y1="${H - 9}" y2="${H - 9}"
+          stroke="var(--rule)" stroke-width="1"/>
+    <line x1="${x(50)}" x2="${x(50)}" y1="4" y2="${H - 5}"
+          stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="2 3"/>
+    <line x1="${x(lo)}" x2="${x(hi)}" y1="${H - 16}" y2="${H - 16}"
+          stroke="var(--accent)" stroke-width="7" stroke-linecap="round" opacity=".28"/>
+    <circle cx="${x(pct)}" cy="${H - 16}" r="4.5" fill="var(--accent)"
+            stroke="var(--bg)" stroke-width="2"/>
+    <text x="${PAD}" y="${H - 1}" fill="var(--ink-3)"
+          style="font:500 9px 'IBM Plex Mono',monospace">0</text>
+    <text x="${x(50)}" y="${H - 1}" fill="var(--ink-3)" text-anchor="middle"
+          style="font:500 9px 'IBM Plex Mono',monospace">50%</text>
+    <text x="${W - PAD}" y="${H - 1}" fill="var(--ink-3)" text-anchor="end"
+          style="font:500 9px 'IBM Plex Mono',monospace">100</text>
+  </svg>`;
+}
+
+function renderScore() {
+  const S = DATA.scorecard;
+  if (!S) return;
+  const el = $("#score");
+  el.hidden = false;
+  const s = S.season, h = S.head_to_head;
+  const row = (who, t, iv) => {
+    const rec = `<b>${t.win}-${t.loss}${t.push ? "-" + t.push + "p" : ""}</b>`
+      + (t.win_pct !== null ? ` &middot; ${t.win_pct}%` : "")
+      + `<br>MNF ${t.mnf_graded ? `${t.mnf_win}-${t.mnf_loss + t.mnf_push}` : "&mdash;"}`;
+    return `<div class="rowline"><span class="who">${who}</span>
+      <span class="rec">${rec}</span>${intervalBar(t.win_pct, iv?.[0], iv?.[1])}</div>`;
+  };
+  // Fixed low-to-high order: the whole point of this table is reading down it.
+  const ORDER = ["no edge", "0.5 pt", "1\u20131.5 pts", "2+ pts"];
+  const buckets = Object.entries(S.calibration || {})
+    .filter(([, c]) => c.n)
+    .sort((a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]));
+  el.innerHTML = `<header>
+      <h2>Scorecard</h2>
+      <span class="meta">${s.engine.graded} picks graded &middot; engine
+        ${s.engine_perfect_weeks} perfect week${s.engine_perfect_weeks === 1 ? "" : "s"},
+        you ${s.austin_perfect_weeks}</span>
+    </header>
+    <div class="body">
+      ${row("Engine", s.engine, s.engine_interval)}
+      ${row("You", s.austin, s.austin_interval)}
+      ${buckets.length ? `<table class="calib">
+        <thead><tr><th>Price</th><th>Picks</th><th>Predicted</th><th>Actual</th>
+        <th>Plausible range</th></tr></thead><tbody>
+        ${buckets.map(([k, c]) => `<tr><td>${k}</td><td class="n">${c.n}</td>
+          <td class="n">${c.predicted_pct}%</td><td class="n">${c.actual_pct}%</td>
+          <td class="n">${c.interval[0]}&ndash;${c.interval[1]}%</td></tr>`).join("")}
+        </tbody></table>` : ""}
+    </div>
+    <div class="h2h">Agreed on <b>${h.agreed}</b> picks, split on <b>${h.disagreed}</b>.
+      ${h.disagreed ? `Where you went a different way: engine
+        <b>${h.engine_on_disagreements.win}&ndash;${h.engine_on_disagreements.loss
+          + h.engine_on_disagreements.push}</b>, you
+        <b>${h.austin_on_disagreements.win}&ndash;${h.austin_on_disagreements.loss
+          + h.austin_on_disagreements.push}</b>. Those are the only picks that compare
+        judgement — the ones you agreed on cancel out.`
+        : `Until you split on a game, there is nothing to compare.`}
+      ${s.weeks_missing_your_picks.length
+        ? ` <br><br>No picks recorded for week${s.weeks_missing_your_picks.length > 1
+            ? "s" : ""} ${s.weeks_missing_your_picks.join(", ")} — those cannot be scored.`
+        : ""}</div>
+    <div class="caveat"><b>Read the bars, not the percentages.</b>
+      ${S.sample_size_note.text}</div>`;
+}
+
+function renderSlate() {
+  if (!PICKS || !PICKS.picks?.length) return;
+  const el = $("#slate");
+  el.hidden = false;
+  const rows = PICKS.picks.map((p) => {
+    const line = p.pick_line === 0 ? "PK"
+      : `${p.pick_line > 0 ? "+" : ""}${p.pick_line.toFixed(1)}`;
+    return `<div class="pick">
+      <div class="name">${p.pick} ${line}${p.is_mnf
+        ? ` <span class="pickchip">Monday night</span>` : ""}</div>
+      <div class="nums"><b>${(p.win_prob * 100).toFixed(1)}%</b><br>
+        ${p.line_value > 0 ? `+${p.line_value.toFixed(1)} pts of price` : "no price edge"}</div>
+      <ul>${p.reasoning.map((c) => `<li class="${c.kind}">${c.text}</li>`).join("")}</ul>
+    </div>`;
+  }).join("");
+  const prov = PICKS.status !== "final";
+  el.className = "slate" + (prov ? " provisional" : "");
+  el.innerHTML = `<header>
+      <h2>Week ${PICKS.week} &mdash; the five</h2>
+      <span class="statechip${prov ? " prov" : ""}">${prov ? "provisional" : "final"}</span>
+      <span class="meta">against the sheet dated <b>${PICKS.sheet_date}</b>
+        &nbsp;&middot;&nbsp; P(5&#8209;0) <b>${(PICKS.p_perfect * 100).toFixed(2)}%</b>
+        &nbsp;&middot;&nbsp; field <b>~${PICKS.field_size}</b></span>
+    </header>${prov ? `<div class="provnote"><b>Not final.</b> This slate refreshes
+      every time spreads are collected, and the numbers behind it are still moving.
+      The gap between the Commish's Thursday sheet and the Saturday deadline is the
+      whole edge &mdash; submitting an early version spends it for nothing. The final
+      slate lands Saturday morning.</div>` : ""}${rows}
+    <footer><b>Monday night.</b> ${PICKS.mnf_note}${PICKS.thin_week
+      ? ` <br><br><b>Thin week.</b> Only ${PICKS.games_with_edge} games carried price value.
+          A slate padded with no-edge games is a materially worse bet than a normal week.`
+      : ""}</footer>`;
+}
+
 function render() {
   $("#board").hidden = state.table;
   $("#tableview").hidden = !state.table;
+  $("#slate").hidden = state.table || !PICKS;
+  $("#score").hidden = state.table || !DATA.scorecard;
   if (state.table) renderTable(); else renderBoard();
 }
 
 /* ---------- chrome ---------- */
 (function init() {
   const gen = new Date(DATA.generated_at);
-  const moved = games.filter((g) => g.delta !== 0).length;
+  const moved = games.filter((g) => g.inWeek && g.delta !== 0).length;
   $("#stamp").innerHTML = `updated <b>${gen.toLocaleString(undefined,
     { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}</b>
     &nbsp;&middot;&nbsp; <b>${games.length}</b> games tracked
-    &nbsp;&middot;&nbsp; <b>${moved}</b> off their open`;
+    &nbsp;&middot;&nbsp; <b>${moved}</b> moved since their week opened`;
 
   if (DATA.banner) {
     $("#flag").hidden = false;
@@ -582,6 +909,11 @@ function render() {
     e.currentTarget.setAttribute("aria-pressed", String(state.moversOnly));
     render();
   });
+  $("#liveOnly").addEventListener("click", (e) => {
+    state.liveOnly = !state.liveOnly;
+    e.currentTarget.setAttribute("aria-pressed", String(state.liveOnly));
+    render();
+  });
   $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
   $("#viewToggle").addEventListener("click", (e) => {
     state.table = !state.table;
@@ -590,6 +922,8 @@ function render() {
     render();
   });
 
+  renderSlate();
+  renderScore();
   render();
 })();
 </script>

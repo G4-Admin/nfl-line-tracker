@@ -9,7 +9,16 @@ Pulls current NFL point spreads from The Odds API and maintains three files:
   data/movement.json  small digest of what moved since the last run (feeds the analyst)
 
 Design rules:
-  * The FIRST consensus line we ever see for a game is its opener. Never overwritten.
+  * TWO baselines, because they answer different questions:
+      opened     the first line we ever saw -- a lookahead number, posted before
+                 the season and carrying no information about how the teams
+                 actually are. Useful history, useless as a movement baseline.
+      week_open  the consensus on the TUESDAY that begins the game's own week.
+                 Monday Night Football ends the prior week late Monday and books
+                 repost overnight, so Tuesday is the first number that reflects
+                 everything known and nothing from the midweek cycle. Movement
+                 measured from here is one week of real information.
+    Both are set once and never overwritten.
   * Re-running on the same day overwrites that day's consensus point (last run wins)
     but always appends to snapshots.csv, so nothing is ever destroyed.
   * Games that have already kicked off stop updating; their last pre-kickoff
@@ -27,7 +36,7 @@ import statistics
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone, date
+from datetime import datetime, timedelta, timezone, date
 
 API_BASE = "https://api.the-odds-api.com/v4"
 SPORT = "americanfootball_nfl"
@@ -71,15 +80,31 @@ def fetch_odds(api_key):
 
 
 def nfl_week(commence_iso, anchor):
-    """Week 1 = the 7 days starting the Tuesday before the first game."""
+    """Week 1 = the 7 days starting the Tuesday before the first game.
+
+    Kickoffs are bucketed by US game day, not by UTC date. A Monday night game
+    starts after midnight UTC, so on the raw UTC date it would fall into the
+    following week -- that misfiled 17 games a season. Shifting back 8 hours puts
+    every NFL kickoff slot on its real game day, from a 9:30am ET London game
+    (13:30 UTC) to an 8:20pm ET Monday nighter (00:20 UTC Tuesday), without
+    needing a timezone database on the runner.
+    """
     try:
-        game_day = datetime.fromisoformat(commence_iso.replace("Z", "+00:00")).date()
+        kick = datetime.fromisoformat(commence_iso.replace("Z", "+00:00"))
     except ValueError:
         return None
+    game_day = (kick - timedelta(hours=8)).date()
     delta = (game_day - anchor).days
     if delta < 0:
         return None
     return delta // 7 + 1
+
+
+def week_tuesday(week, anchor):
+    """The Tuesday that opens a given week. Week 1 starts on the anchor."""
+    if not week:
+        return None
+    return anchor + timedelta(days=(week - 1) * 7)
 
 
 def extract_book_lines(event):
@@ -197,6 +222,7 @@ def main():
                 "away_team": away,
                 "opened": {"date": today, "at": run_at, "consensus": consensus,
                            "n_books": len(books), "source": open_source},
+                "week_open": None,
                 "history": [point],
                 "current": point,
                 "notes": [],
@@ -222,9 +248,26 @@ def main():
             g["history"].append(point)
         g["current"] = point
 
+        # The week's own baseline, set once on the Tuesday that opens its week.
+        # If a run is missed, the next run sets it and records that it was late,
+        # so a stale baseline is visible rather than silent.
+        tues = week_tuesday(week, anchor)
+        if g.get("week_open") is None and tues and now.date() >= tues:
+            g["week_open"] = {
+                "date": today, "at": run_at, "consensus": consensus,
+                "n_books": len(books),
+                "expected_on": tues.isoformat(),
+                "days_late": (now.date() - tues).days,
+            }
+
         delta_day = round(consensus - prev, 1)
         delta_open = round(consensus - g["opened"]["consensus"], 1)
         crossed = key_number_crossed(prev, consensus)
+
+        in_week = bool(tues and now.date() >= tues)
+        days_out = (kickoff.date() - now.date()).days
+        wo = g.get("week_open")
+        delta_week = round(consensus - wo["consensus"], 1) if wo else None
 
         if abs(delta_day) >= 0.5 or crossed:
             movers.append({
@@ -232,8 +275,17 @@ def main():
                 "commence_time": commence,
                 "event": "key_number" if crossed else "move",
                 "open": g["opened"]["consensus"], "prev": prev, "current": consensus,
-                "delta": delta_day, "delta_from_open": delta_open,
+                "delta": delta_day,
+                "delta_from_open": delta_open,
+                "week_open": wo["consensus"] if wo else None,
+                "delta_from_week_open": delta_week,
                 "crossed": crossed,
+                "in_week": in_week,
+                "days_to_kickoff": days_out,
+                # Only in-week movement is worth researching. A Week 14 lookahead
+                # line drifting in September is the market discovering the teams,
+                # not news, and chasing it wastes the daily research pass.
+                "researchable": in_week or days_out <= 10,
                 "book_spread": round(max(spreads) - min(spreads), 1),
             })
 
@@ -242,18 +294,25 @@ def main():
     with open(GAMES, "w") as f:
         json.dump(games, f, indent=1, sort_keys=True)
 
-    movers.sort(key=lambda m: (-abs(m.get("delta") or 0), m["commence_time"]))
+    # Researchable movers first, then by size. The analyst reads from the top.
+    movers.sort(key=lambda m: (not m.get("researchable", True),
+                               -abs(m.get("delta") or 0), m["commence_time"]))
+    researchable = [m for m in movers if m.get("researchable")]
     with open(MOVEMENT, "w") as f:
         json.dump({
             "generated_at": run_at,
             "date": today,
             "games_tracked": seen_now,
             "quota": quota,
+            "movers_researchable": len(researchable),
+            "movers_lookahead": len(movers) - len(researchable),
             "movers": movers,
         }, f, indent=1)
 
+    weeks_open = sum(1 for g in games.values() if g.get("week_open"))
     print(f"{run_at}  games={seen_now}  rows={len(snapshot_rows)}  "
-          f"movers={len(movers)}  quota_remaining={quota.get('remaining')}")
+          f"movers={len(movers)} ({len(researchable)} in-week)  "
+          f"week_baselines_set={weeks_open}  quota_remaining={quota.get('remaining')}")
 
 
 def key_number_crossed(prev, cur):

@@ -144,10 +144,38 @@ def main():
     failures += [not check("B moved 1.5 toward home",
                            g["g_sf_sea"]["current"]["consensus"], 3.0)]
 
+    failures += [not check("B is in its week -> week baseline set",
+                           g["g_sf_sea"]["week_open"] is not None, True)]
+    failures += [not check("week baseline is this week's number, not September's",
+                           g["g_sf_sea"]["week_open"]["consensus"], 3.0)]
+    failures += [not check("lookahead opener untouched by it",
+                           g["g_sf_sea"]["opened"]["consensus"], 1.5)]
+    failures += [not check("baseline knows which Tuesday it belonged to",
+                           g["g_sf_sea"]["week_open"]["expected_on"], "2026-09-08")]
+    failures += [not check("lateness recorded when a Tuesday run was missed",
+                           g["g_sf_sea"]["week_open"]["days_late"], 5)]
+    failures += [not check("C is a future week -> no week baseline yet",
+                           g["g_dal_phi"]["week_open"], None)]
+
+    print("day 5  later run must not move a baseline already set")
+    d5 = NOW + timedelta(days=13)
+    run([ev(*B, 1, {"draftkings": 6.0, "fanduel": 6.0, "betmgm": 6.0}, d5),
+         ev(*C, 9, {"draftkings": -6.5, "fanduel": -7.0, "betmgm": -6.5}, d5)], d5)
+    g, m = read("games.json"), read("movement.json")
+    failures += [not check("week baseline is set once and frozen",
+                           g["g_sf_sea"]["week_open"]["consensus"], 3.0)]
+    mv = [x for x in m["movers"] if x["game_id"] == "g_sf_sea"]
+    failures += [not check("delta measured from the week baseline",
+                           mv[0]["delta_from_week_open"], 3.0)]
+    failures += [not check("in-week game is researchable", mv[0]["researchable"], True)]
+    cm = [x for x in m["movers"] if x["game_id"] == "g_dal_phi"]
+    failures += [not check("future-week drift is not researchable",
+                           [x["researchable"] for x in cm], [] if not cm else [False])]
+
     with open(collect.SNAPSHOTS) as f:
         rows = len(f.readlines()) - 1
     # 6 + 6 + 6 + 9 + 6 across five runs
-    failures += [not check("snapshot rows appended (nothing overwritten)", rows, 33)]
+    failures += [not check("snapshot rows appended (nothing overwritten)", rows, 39)]
 
     shutil.rmtree(tmp)
     bad = sum(failures)

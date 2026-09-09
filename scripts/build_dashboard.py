@@ -20,6 +20,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--games", default=os.path.join(ROOT, "data", "games.json"))
     ap.add_argument("--notes", default=os.path.join(ROOT, "data", "notes.json"))
+    ap.add_argument("--context", default=os.path.join(ROOT, "data", "context.json"))
+    ap.add_argument("--picks", default=os.path.join(ROOT, "data", "picks.json"))
+    ap.add_argument("--scorecard", default=os.path.join(ROOT, "data", "scorecard.json"))
     ap.add_argument("--out", default=os.path.join(ROOT, "dashboard.html"))
     ap.add_argument("--banner", default="")
     ap.add_argument("--digest", default="")
@@ -33,10 +36,28 @@ def main():
         with open(args.notes) as f:
             notes = json.load(f)
 
+    context = {}
+    if os.path.exists(args.context):
+        with open(args.context) as f:
+            context = (json.load(f) or {}).get("games", {})
+
+    picks = None
+    if os.path.exists(args.picks):
+        with open(args.picks) as f:
+            picks = json.load(f)
+
+    scorecard = None
+    if os.path.exists(args.scorecard):
+        with open(args.scorecard) as f:
+            scorecard = json.load(f)
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "games": games,
         "notes": notes,
+        "context": context,
+        "picks": picks,
+        "scorecard": scorecard,
         "banner": args.banner,
         "digest": args.digest,
     }
@@ -55,7 +76,9 @@ def main():
         f.write(html)
 
     kb = os.path.getsize(args.out) / 1024
-    print(f"wrote {args.out}  games={len(games)}  notes={len(notes)}  size={kb:.0f}KB")
+    print(f"wrote {args.out}  games={len(games)}  notes={len(notes)}  "
+          f"context={len(context)}  picks={len(picks['picks']) if picks else 0}  "
+          f"size={kb:.0f}KB")
 
 
 if __name__ == "__main__":
