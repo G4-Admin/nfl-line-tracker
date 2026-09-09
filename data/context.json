@@ -1,0 +1,244 @@
+{
+ "games": {
+  "17885cb8dcade8f6c3bce14b2de805e8": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T20:25:00Z",
+   "matchup": "Washington Commanders @ Philadelphia Eagles",
+   "weather": {
+    "gust_mph": 10.3,
+    "precip_pct": 24,
+    "roofed": false,
+    "temp_f": 86.0,
+    "wind_mph": 9.4,
+    "windy": false
+   }
+  },
+  "1edfa5ceaa1ad2cb57df1c1b908731f6": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T20:25:00Z",
+   "matchup": "Arizona Cardinals @ Los Angeles Chargers",
+   "weather": {
+    "roofed": true
+   }
+  },
+  "3e646c7479c57f5d9752d8c7dfe7059b": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-14T00:20:00Z",
+   "matchup": "Dallas Cowboys @ New York Giants",
+   "weather": {
+    "gust_mph": 4.9,
+    "precip_pct": 24,
+    "roofed": false,
+    "temp_f": 78.1,
+    "wind_mph": 2.9,
+    "windy": false
+   }
+  },
+  "56e8897681915f7ec92baeee952bb1ae": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-18T00:15:00Z",
+   "matchup": "Detroit Lions @ Buffalo Bills",
+   "weather": {
+    "gust_mph": 16.3,
+    "precip_pct": 21,
+    "roofed": false,
+    "temp_f": 58.3,
+    "wind_mph": 8.1,
+    "windy": false
+   }
+  },
+  "5ad8135dc2b5f27de0b777acd317855a": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-15T00:15:00Z",
+   "matchup": "Denver Broncos @ Kansas City Chiefs",
+   "weather": {
+    "gust_mph": 28.9,
+    "precip_pct": 27,
+    "roofed": false,
+    "temp_f": 92.7,
+    "wind_mph": 15.0,
+    "windy": true
+   }
+  },
+  "7dddb296a42e7a41a774b24bd1709ce1": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "New York Jets @ Tennessee Titans",
+   "weather": {
+    "gust_mph": 4.9,
+    "precip_pct": 3,
+    "roofed": false,
+    "temp_f": 92.0,
+    "wind_mph": 3.8,
+    "windy": false
+   }
+  },
+  "7e09efed7e12c659b82740b67ce2f9a1": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "Buffalo Bills @ Houston Texans",
+   "weather": {
+    "roofed": true
+   }
+  },
+  "8c94552d022acec4a0458d70c19d3da9": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-10T00:20:00Z",
+   "matchup": "New England Patriots @ Seattle Seahawks",
+   "weather": {
+    "gust_mph": 9.2,
+    "precip_pct": 1,
+    "roofed": false,
+    "temp_f": 75.8,
+    "wind_mph": 6.7,
+    "windy": false
+   }
+  },
+  "95c01d1bb797d6df14824b106c5a9130": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+   "weather": {
+    "gust_mph": 8.7,
+    "precip_pct": 9,
+    "roofed": false,
+    "temp_f": 81.0,
+    "wind_mph": 5.6,
+    "windy": false
+   }
+  },
+  "acc580d74344ea3b31bbcdd057fe6a9c": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-11T00:35:00Z",
+   "matchup": "San Francisco 49ers @ Los Angeles Rams",
+   "weather": {
+    "roofed": true
+   }
+  },
+  "b6cfdcbafa61ce220ba87dc2d9b80c77": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "Baltimore Ravens @ Indianapolis Colts",
+   "weather": {
+    "roofed": true
+   }
+  },
+  "c1d3fcec25aaeb06ebd2244d33d338e0": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "New Orleans Saints @ Detroit Lions",
+   "weather": {
+    "roofed": true
+   }
+  },
+  "c5d95f48a16849ab6bebc68fbbfcb74a": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T20:25:00Z",
+   "matchup": "Miami Dolphins @ Las Vegas Raiders",
+   "weather": {
+    "roofed": true
+   }
+  },
+  "cb77efed7e711d25a72c1a2a0a1af119": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T20:25:00Z",
+   "matchup": "Green Bay Packers @ Minnesota Vikings",
+   "weather": {
+    "roofed": true
+   }
+  },
+  "e55c6fe19fce094ce214c8b0e5b504e9": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "Cleveland Browns @ Jacksonville Jaguars",
+   "weather": {
+    "gust_mph": 3.6,
+    "precip_pct": 6,
+    "roofed": false,
+    "temp_f": 96.8,
+    "wind_mph": 4.5,
+    "windy": false
+   }
+  },
+  "ed6d24ff979f9c71979fead577b0b3f7": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+   "weather": {
+    "gust_mph": 6.0,
+    "precip_pct": 9,
+    "roofed": false,
+    "temp_f": 88.9,
+    "wind_mph": 4.0,
+    "windy": false
+   }
+  },
+  "fc362aff0d889ec52d358307a70c32ed": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-09-13T17:00:00Z",
+   "matchup": "Chicago Bears @ Carolina Panthers",
+   "weather": {
+    "gust_mph": 5.4,
+    "precip_pct": 8,
+    "roofed": false,
+    "temp_f": 90.9,
+    "wind_mph": 4.5,
+    "windy": false
+   }
+  }
+ },
+ "generated_at": "2026-09-09T19:43:20+00:00",
+ "horizon_days": 10,
+ "wind_flag_mph": 15
+}
