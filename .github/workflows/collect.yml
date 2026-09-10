@@ -47,6 +47,13 @@ jobs:
         continue-on-error: true
 
       - name: Fetch final scores
+        # results.py reads the Odds API scores endpoint, so it needs the same
+        # secret collect.py uses. `env:` is per-step in Actions: without this
+        # block the key is simply absent here, the script exits "not set", and
+        # continue-on-error turns that into a GREEN run with no scores. The old
+        # ESPN version needed no key, which is why this never bit before.
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python scripts/results.py
         continue-on-error: true
 
