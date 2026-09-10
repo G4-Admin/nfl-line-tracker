@@ -9,7 +9,7 @@
    "matchup": "Washington Commanders @ Philadelphia Eagles",
    "weather": {
     "gust_mph": 4.7,
-    "precip_pct": 13,
+    "precip_pct": 15,
     "roofed": false,
     "temp_f": 85.4,
     "wind_mph": 3.9,
@@ -36,7 +36,7 @@
    "matchup": "Dallas Cowboys @ New York Giants",
    "weather": {
     "gust_mph": 8.1,
-    "precip_pct": 5,
+    "precip_pct": 8,
     "roofed": false,
     "temp_f": 79.9,
     "wind_mph": 4.0,
@@ -222,7 +222,7 @@
    }
   }
  },
- "generated_at": "2026-09-10T14:57:44+00:00",
+ "generated_at": "2026-09-10T15:06:27+00:00",
  "horizon_days": 10,
  "wind_flag_mph": 15
 }
