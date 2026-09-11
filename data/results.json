@@ -8,5 +8,15 @@
   "home_team": "Seattle Seahawks",
   "recorded_at": "2026-09-10T15:06:28+00:00",
   "week": 1
+ },
+ "acc580d74344ea3b31bbcdd057fe6a9c": {
+  "away_score": 27,
+  "away_team": "San Francisco 49ers",
+  "closing_consensus": -3.5,
+  "home_margin": -20,
+  "home_score": 7,
+  "home_team": "Los Angeles Rams",
+  "recorded_at": "2026-09-11T14:59:05+00:00",
+  "week": 1
  }
 }
