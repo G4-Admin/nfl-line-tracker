@@ -29,6 +29,16 @@
   "recorded_at": "2026-09-14T16:56:35+00:00",
   "week": 1
  },
+ "56e8897681915f7ec92baeee952bb1ae": {
+  "away_score": 31,
+  "away_team": "Detroit Lions",
+  "closing_consensus": -5.5,
+  "home_margin": 10,
+  "home_score": 41,
+  "home_team": "Buffalo Bills",
+  "recorded_at": "2026-09-18T14:57:33+00:00",
+  "week": 2
+ },
  "5ad8135dc2b5f27de0b777acd317855a": {
   "away_score": 10,
   "away_team": "Denver Broncos",
