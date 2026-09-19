@@ -1,33 +1,52 @@
 {
- "generated_at": "2026-09-18T14:56:55+00:00",
- "date": "2026-09-18",
+ "generated_at": "2026-09-19T14:21:34+00:00",
+ "date": "2026-09-19",
  "games_tracked": 29,
  "quota": {
-  "remaining": "461",
-  "used": "39",
+  "remaining": "458",
+  "used": "42",
   "cost": "1"
  },
- "movers_researchable": 1,
+ "movers_researchable": 2,
  "movers_lookahead": 0,
  "movers": [
   {
-   "game_id": "4aeee070bb6ec60bdfae4dede61b9014",
+   "game_id": "0636ebff776d43f8c829a36713c80b22",
    "week": 2,
-   "matchup": "Green Bay Packers @ New York Jets",
+   "matchup": "Cleveland Browns @ Tampa Bay Buccaneers",
    "commence_time": "2026-09-20T17:00:00Z",
-   "event": "key_number",
-   "open": 5.5,
-   "prev": 3.5,
-   "current": 3.0,
+   "event": "move",
+   "open": -6.0,
+   "prev": -8.5,
+   "current": -9.0,
    "delta": -0.5,
-   "delta_from_open": -2.5,
-   "week_open": 3.5,
+   "delta_from_open": -3.0,
+   "week_open": -8.5,
    "delta_from_week_open": -0.5,
-   "crossed": 3,
+   "crossed": null,
    "in_week": true,
-   "days_to_kickoff": 2,
+   "days_to_kickoff": 1,
    "researchable": true,
-   "book_spread": 0.5
+   "book_spread": 1.0
+  },
+  {
+   "game_id": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "week": 3,
+   "matchup": "Seattle Seahawks @ Washington Commanders",
+   "commence_time": "2026-09-27T17:00:00Z",
+   "event": "move",
+   "open": 3.5,
+   "prev": 2.0,
+   "current": 2.5,
+   "delta": 0.5,
+   "delta_from_open": -1.0,
+   "week_open": null,
+   "delta_from_week_open": null,
+   "crossed": null,
+   "in_week": false,
+   "days_to_kickoff": 8,
+   "researchable": true,
+   "book_spread": 1.0
   }
  ]
 }
