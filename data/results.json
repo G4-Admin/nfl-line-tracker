@@ -59,6 +59,16 @@
   "recorded_at": "2026-09-21T17:00:02+00:00",
   "week": 2
  },
+ "32367f882fac1a0c20a6335619922025": {
+  "away_score": 6,
+  "away_team": "New York Giants",
+  "closing_consensus": -7.0,
+  "home_margin": 22,
+  "home_score": 28,
+  "home_team": "Los Angeles Rams",
+  "recorded_at": "2026-09-22T15:30:25+00:00",
+  "week": 2
+ },
  "36ad2fa722f4915ef23d2c81351261de": {
   "away_score": 20,
   "away_team": "Cincinnati Bengals",
