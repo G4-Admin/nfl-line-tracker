@@ -289,6 +289,16 @@
   "recorded_at": "2026-09-14T16:56:35+00:00",
   "week": 1
  },
+ "e5fbd3b3953b896b1bf897ddadb3cc4b": {
+  "away_score": 35,
+  "away_team": "Atlanta Falcons",
+  "closing_consensus": -4.5,
+  "home_margin": -21,
+  "home_score": 14,
+  "home_team": "Green Bay Packers",
+  "recorded_at": "2026-09-25T15:48:00+00:00",
+  "week": 3
+ },
  "ed6d24ff979f9c71979fead577b0b3f7": {
   "away_score": 27,
   "away_team": "Tampa Bay Buccaneers",
