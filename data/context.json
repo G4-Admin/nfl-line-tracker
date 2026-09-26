@@ -8,11 +8,11 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "matchup": "Kansas City Chiefs @ Miami Dolphins",
    "weather": {
-    "gust_mph": 5.8,
-    "precip_pct": 1,
+    "gust_mph": 5.1,
+    "precip_pct": 0,
     "roofed": false,
-    "temp_f": 88.3,
-    "wind_mph": 3.0,
+    "temp_f": 81.8,
+    "wind_mph": 4.3,
     "windy": false
    }
   },
@@ -35,11 +35,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "New York Jets @ Chicago Bears",
    "weather": {
-    "gust_mph": 13.4,
+    "gust_mph": 17.4,
     "precip_pct": 18,
     "roofed": false,
-    "temp_f": 80.9,
-    "wind_mph": 9.5,
+    "temp_f": 62.6,
+    "wind_mph": 10.7,
     "windy": false
    }
   },
@@ -62,11 +62,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Los Angeles Rams @ Philadelphia Eagles",
    "weather": {
-    "gust_mph": 3.8,
-    "precip_pct": 19,
+    "gust_mph": 7.4,
+    "precip_pct": 16,
     "roofed": false,
-    "temp_f": 82.3,
-    "wind_mph": 1.3,
+    "temp_f": 83.6,
+    "wind_mph": 4.3,
     "windy": false
    }
   },
@@ -78,11 +78,11 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "matchup": "New England Patriots @ Jacksonville Jaguars",
    "weather": {
-    "gust_mph": 7.8,
+    "gust_mph": 4.0,
     "precip_pct": 0,
     "roofed": false,
-    "temp_f": 87.3,
-    "wind_mph": 6.5,
+    "temp_f": 84.7,
+    "wind_mph": 1.8,
     "windy": false
    }
   },
@@ -94,12 +94,12 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "matchup": "Seattle Seahawks @ Washington Commanders",
    "weather": {
-    "gust_mph": 32.7,
-    "precip_pct": 59,
+    "gust_mph": 24.8,
+    "precip_pct": 26,
     "roofed": false,
-    "temp_f": 56.8,
-    "wind_mph": 15.1,
-    "windy": true
+    "temp_f": 68.5,
+    "wind_mph": 13.6,
+    "windy": false
    }
   },
   "2e523fcb0497aa689473e290eb2b97de": {
@@ -121,11 +121,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Jacksonville Jaguars @ Cincinnati Bengals",
    "weather": {
-    "gust_mph": 9.4,
-    "precip_pct": 32,
+    "gust_mph": 19.9,
+    "precip_pct": 30,
     "roofed": false,
-    "temp_f": 88.4,
-    "wind_mph": 4.7,
+    "temp_f": 69.7,
+    "wind_mph": 5.5,
     "windy": false
    }
   },
@@ -137,11 +137,11 @@
    "kickoff": "2026-09-28T00:20:00Z",
    "matchup": "Los Angeles Rams @ Denver Broncos",
    "weather": {
-    "gust_mph": 21.5,
-    "precip_pct": 0,
+    "gust_mph": 30.6,
+    "precip_pct": 4,
     "roofed": false,
-    "temp_f": 80.8,
-    "wind_mph": 16.6,
+    "temp_f": 81.3,
+    "wind_mph": 15.1,
     "windy": true
    }
   },
@@ -157,7 +157,7 @@
     "precip_pct": 0,
     "roofed": false,
     "temp_f": 63.7,
-    "wind_mph": 4.5,
+    "wind_mph": 4.4,
     "windy": false
    }
   },
@@ -169,11 +169,11 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "matchup": "Tennessee Titans @ New York Giants",
    "weather": {
-    "gust_mph": 29.1,
-    "precip_pct": 91,
+    "gust_mph": 40.9,
+    "precip_pct": 40,
     "roofed": false,
-    "temp_f": 59.2,
-    "wind_mph": 18.1,
+    "temp_f": 64.6,
+    "wind_mph": 19.5,
     "windy": true
    }
   },
@@ -185,11 +185,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "New England Patriots @ Buffalo Bills",
    "weather": {
-    "gust_mph": 25.7,
-    "precip_pct": 28,
+    "gust_mph": 17.2,
+    "precip_pct": 22,
     "roofed": false,
-    "temp_f": 77.7,
-    "wind_mph": 13.0,
+    "temp_f": 77.3,
+    "wind_mph": 12.1,
     "windy": false
    }
   },
@@ -201,11 +201,11 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "matchup": "Carolina Panthers @ Cleveland Browns",
    "weather": {
-    "gust_mph": 16.6,
+    "gust_mph": 17.7,
     "precip_pct": 0,
     "roofed": false,
-    "temp_f": 67.0,
-    "wind_mph": 12.1,
+    "temp_f": 67.6,
+    "wind_mph": 11.9,
     "windy": false
    }
   },
@@ -217,11 +217,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Arizona Cardinals @ New York Giants",
    "weather": {
-    "gust_mph": 7.2,
-    "precip_pct": 14,
+    "gust_mph": 10.3,
+    "precip_pct": 16,
     "roofed": false,
-    "temp_f": 78.1,
-    "wind_mph": 7.2,
+    "temp_f": 74.2,
+    "wind_mph": 7.0,
     "windy": false
    }
   },
@@ -233,11 +233,11 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "matchup": "Cincinnati Bengals @ Pittsburgh Steelers",
    "weather": {
-    "gust_mph": 16.6,
-    "precip_pct": 0,
+    "gust_mph": 19.2,
+    "precip_pct": 3,
     "roofed": false,
-    "temp_f": 70.7,
-    "wind_mph": 10.1,
+    "temp_f": 68.5,
+    "wind_mph": 12.5,
     "windy": false
    }
   },
@@ -252,6 +252,17 @@
     "roofed": true
    }
   },
+  "8bd90781e17e6d97df3941063cedae1e": {
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "kickoff": "2026-10-06T00:15:00Z",
+   "matchup": "Atlanta Falcons @ New Orleans Saints",
+   "weather": {
+    "roofed": true
+   }
+  },
   "96d2373cda647873b971f268482bced0": {
    "injuries": {
     "away": [],
@@ -260,11 +271,11 @@
    "kickoff": "2026-10-04T20:25:00Z",
    "matchup": "Los Angeles Chargers @ Seattle Seahawks",
    "weather": {
-    "gust_mph": 8.1,
-    "precip_pct": 5,
+    "gust_mph": 10.7,
+    "precip_pct": 4,
     "roofed": false,
-    "temp_f": 63.3,
-    "wind_mph": 7.9,
+    "temp_f": 64.5,
+    "wind_mph": 9.0,
     "windy": false
    }
   },
@@ -277,10 +288,10 @@
    "matchup": "Green Bay Packers @ Tampa Bay Buccaneers",
    "weather": {
     "gust_mph": 12.8,
-    "precip_pct": 8,
+    "precip_pct": 7,
     "roofed": false,
-    "temp_f": 91.1,
-    "wind_mph": 11.0,
+    "temp_f": 91.4,
+    "wind_mph": 10.8,
     "windy": false
    }
   },
@@ -292,11 +303,11 @@
    "kickoff": "2026-09-27T20:05:00Z",
    "matchup": "Arizona Cardinals @ San Francisco 49ers",
    "weather": {
-    "gust_mph": 8.7,
+    "gust_mph": 10.3,
     "precip_pct": 1,
     "roofed": false,
-    "temp_f": 72.4,
-    "wind_mph": 6.3,
+    "temp_f": 66.8,
+    "wind_mph": 7.8,
     "windy": false
    }
   },
@@ -308,11 +319,11 @@
    "kickoff": "2026-10-05T00:20:00Z",
    "matchup": "Detroit Lions @ Carolina Panthers",
    "weather": {
-    "gust_mph": 3.4,
-    "precip_pct": 42,
+    "gust_mph": 10.3,
+    "precip_pct": 45,
     "roofed": false,
-    "temp_f": 81.7,
-    "wind_mph": 2.5,
+    "temp_f": 75.9,
+    "wind_mph": 4.9,
     "windy": false
    }
   },
@@ -324,11 +335,11 @@
    "kickoff": "2026-10-04T20:25:00Z",
    "matchup": "Denver Broncos @ San Francisco 49ers",
    "weather": {
-    "gust_mph": 18.8,
+    "gust_mph": 2.5,
     "precip_pct": 0,
     "roofed": false,
-    "temp_f": 74.7,
-    "wind_mph": 11.4,
+    "temp_f": 90.6,
+    "wind_mph": 3.3,
     "windy": false
    }
   },
@@ -340,12 +351,12 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "matchup": "Los Angeles Chargers @ Buffalo Bills",
    "weather": {
-    "gust_mph": 21.3,
-    "precip_pct": 1,
+    "gust_mph": 21.9,
+    "precip_pct": 4,
     "roofed": false,
-    "temp_f": 67.3,
-    "wind_mph": 15.8,
-    "windy": true
+    "temp_f": 65.4,
+    "wind_mph": 14.2,
+    "windy": false
    }
   },
   "c327223d76a3b7b0db8c6c104442f44b": {
@@ -367,10 +378,10 @@
    "kickoff": "2026-10-04T13:30:00Z",
    "matchup": "Indianapolis Colts @ Washington Commanders",
    "weather": {
-    "gust_mph": 3.8,
-    "precip_pct": 20,
+    "gust_mph": 5.6,
+    "precip_pct": 29,
     "roofed": false,
-    "temp_f": 72.1,
+    "temp_f": 68.6,
     "wind_mph": 2.7,
     "windy": false
    }
@@ -383,11 +394,11 @@
    "kickoff": "2026-10-02T00:15:00Z",
    "matchup": "Pittsburgh Steelers @ Cleveland Browns",
    "weather": {
-    "gust_mph": 23.7,
-    "precip_pct": 25,
+    "gust_mph": 20.8,
+    "precip_pct": 27,
     "roofed": false,
-    "temp_f": 73.9,
-    "wind_mph": 11.4,
+    "temp_f": 64.0,
+    "wind_mph": 7.4,
     "windy": false
    }
   },
@@ -421,11 +432,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Tennessee Titans @ Baltimore Ravens",
    "weather": {
-    "gust_mph": 6.3,
-    "precip_pct": 20,
+    "gust_mph": 5.6,
+    "precip_pct": 25,
     "roofed": false,
-    "temp_f": 85.3,
-    "wind_mph": 4.0,
+    "temp_f": 81.2,
+    "wind_mph": 5.6,
     "windy": false
    }
   },
@@ -437,16 +448,16 @@
    "kickoff": "2026-09-27T20:05:00Z",
    "matchup": "Minnesota Vikings @ Tampa Bay Buccaneers",
    "weather": {
-    "gust_mph": 5.4,
+    "gust_mph": 4.7,
     "precip_pct": 0,
     "roofed": false,
-    "temp_f": 86.3,
-    "wind_mph": 7.6,
+    "temp_f": 83.3,
+    "wind_mph": 3.8,
     "windy": false
    }
   }
  },
- "generated_at": "2026-09-25T15:47:57+00:00",
+ "generated_at": "2026-09-26T14:57:27+00:00",
  "horizon_days": 10,
  "wind_flag_mph": 15
 }
