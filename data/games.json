@@ -3766,15 +3766,15 @@
   "away_team": "New York Jets",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
-   "betmgm": -3.0,
+   "at": "2026-09-29T16:52:19+00:00",
+   "betmgm": -3.5,
    "consensus": -3.0,
-   "date": "2026-09-28",
-   "draftkings": -3.0,
-   "fanduel": -3.0,
+   "date": "2026-09-29",
+   "draftkings": -3.5,
+   "fanduel": -3.5,
    "max": -3.0,
-   "min": -3.0,
-   "n_books": 8,
+   "min": -3.5,
+   "n_books": 9,
    "williamhill_us": null
   },
   "game_id": "164e6eb68f31bac190381903c3cccd31",
@@ -4006,6 +4006,18 @@
     "min": -3.0,
     "n_books": 8,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -3.5,
+    "consensus": -3.0,
+    "date": "2026-09-29",
+    "draftkings": -3.5,
+    "fanduel": -3.5,
+    "max": -3.0,
+    "min": -3.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Chicago Bears",
@@ -4017,7 +4029,15 @@
    "n_books": 1,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -3.0,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "171aba127aaad3dcbe32a02fc194eb32": {
   "away_team": "Seattle Seahawks",
@@ -5394,15 +5414,15 @@
   "away_team": "Los Angeles Rams",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
-   "betmgm": 2.0,
-   "consensus": 2.0,
-   "date": "2026-09-28",
-   "draftkings": 1.5,
-   "fanduel": 2.5,
-   "max": 2.5,
-   "min": 1.5,
-   "n_books": 4,
+   "at": "2026-09-29T16:52:19+00:00",
+   "betmgm": 3.0,
+   "consensus": 3.0,
+   "date": "2026-09-29",
+   "draftkings": 3.0,
+   "fanduel": 3.0,
+   "max": 3.0,
+   "min": 3.0,
+   "n_books": 9,
    "williamhill_us": null
   },
   "game_id": "1b4f2e60ce83fa1d63a5dff83769d27c",
@@ -5598,6 +5618,18 @@
     "min": 1.5,
     "n_books": 4,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": 3.0,
+    "consensus": 3.0,
+    "date": "2026-09-29",
+    "draftkings": 3.0,
+    "fanduel": 3.0,
+    "max": 3.0,
+    "min": 3.0,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Philadelphia Eagles",
@@ -5609,7 +5641,15 @@
    "n_books": 1,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": 3.0,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "1cb23c83ae4af84cffcdae6b31d06e83": {
   "away_team": "Cleveland Browns",
@@ -11090,14 +11130,14 @@
   "away_team": "Jacksonville Jaguars",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": -2.5,
    "consensus": -2.5,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": -2.5,
    "fanduel": -2.5,
-   "max": -2.5,
-   "min": -3.0,
+   "max": -2.0,
+   "min": -2.5,
    "n_books": 9,
    "williamhill_us": null
   },
@@ -11330,6 +11370,18 @@
     "min": -3.0,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -2.5,
+    "consensus": -2.5,
+    "date": "2026-09-29",
+    "draftkings": -2.5,
+    "fanduel": -2.5,
+    "max": -2.0,
+    "min": -2.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Cincinnati Bengals",
@@ -11341,7 +11393,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -2.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "2f4b1899c1c278947920e0254b682d90": {
   "away_team": "Baltimore Ravens",
@@ -17014,6 +17074,12 @@
    "n_books": 1,
    "source": "baseline_at_setup"
   },
+  "result": {
+   "away_score": 7,
+   "home_score": 27,
+   "margin": 20,
+   "recorded_at": "2026-09-29T16:52:26+00:00"
+  },
   "week": 3,
   "week_open": {
    "at": "2026-09-22T15:29:53+00:00",
@@ -19899,10 +19965,10 @@
   "away_team": "New England Patriots",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": -6.5,
    "consensus": -6.5,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": -7.0,
    "fanduel": -6.5,
    "max": -6.5,
@@ -20091,6 +20157,18 @@
     "min": -7.0,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -6.5,
+    "consensus": -6.5,
+    "date": "2026-09-29",
+    "draftkings": -7.0,
+    "fanduel": -6.5,
+    "max": -6.5,
+    "min": -7.0,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Buffalo Bills",
@@ -20102,7 +20180,15 @@
    "n_books": 1,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -6.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "57418b2cf5aca558b3c98eafac1e264a": {
   "away_team": "Houston Texans",
@@ -22726,10 +22812,10 @@
   "away_team": "Arizona Cardinals",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": 1.0,
    "consensus": 1.0,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": 1.5,
    "fanduel": -1.5,
    "max": 1.5,
@@ -22966,6 +23052,18 @@
     "min": -1.5,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": 1.0,
+    "consensus": 1.0,
+    "date": "2026-09-29",
+    "draftkings": 1.5,
+    "fanduel": -1.5,
+    "max": 1.5,
+    "min": -1.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "New York Giants",
@@ -22977,7 +23075,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": 1.0,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "669a7b568c2a64f9a136dadb0eda1da8": {
   "away_team": "New England Patriots",
@@ -29318,11 +29424,11 @@
   "away_team": "Atlanta Falcons",
   "commence_time": "2026-10-06T00:15:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": -2.5,
    "consensus": -2.5,
-   "date": "2026-09-28",
-   "draftkings": -2.5,
+   "date": "2026-09-29",
+   "draftkings": -3.0,
    "fanduel": -2.5,
    "max": -2.5,
    "min": -3.0,
@@ -29522,6 +29628,18 @@
     "min": -3.0,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -2.5,
+    "consensus": -2.5,
+    "date": "2026-09-29",
+    "draftkings": -3.0,
+    "fanduel": -2.5,
+    "max": -2.5,
+    "min": -3.0,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "New Orleans Saints",
@@ -29533,7 +29651,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -2.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "8c16104c8afc72b583531508b2aa1c33": {
   "away_team": "Cleveland Browns",
@@ -30951,13 +31077,13 @@
   "away_team": "Los Angeles Chargers",
   "commence_time": "2026-10-04T20:25:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": -7.0,
    "consensus": -7.0,
-   "date": "2026-09-28",
-   "draftkings": -6.5,
-   "fanduel": -6.5,
-   "max": -6.5,
+   "date": "2026-09-29",
+   "draftkings": -7.0,
+   "fanduel": -7.0,
+   "max": -7.0,
    "min": -7.0,
    "n_books": 9,
    "williamhill_us": null
@@ -31143,6 +31269,18 @@
     "min": -7.0,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -7.0,
+    "consensus": -7.0,
+    "date": "2026-09-29",
+    "draftkings": -7.0,
+    "fanduel": -7.0,
+    "max": -7.0,
+    "min": -7.0,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Seattle Seahawks",
@@ -31154,7 +31292,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -7.0,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "9760d8f19f84bfee300a74ceb656c95d": {
   "away_team": "Tampa Bay Buccaneers",
@@ -31900,15 +32046,15 @@
   "away_team": "Green Bay Packers",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
-   "betmgm": 3.5,
-   "consensus": 3.5,
-   "date": "2026-09-28",
+   "at": "2026-09-29T16:52:19+00:00",
+   "betmgm": 4.0,
+   "consensus": 4.0,
+   "date": "2026-09-29",
    "draftkings": 3.5,
    "fanduel": 3.5,
    "max": 4.0,
    "min": 3.5,
-   "n_books": 8,
+   "n_books": 9,
    "williamhill_us": null
   },
   "game_id": "99a9bae4dc0dc2590496bd3102b211f2",
@@ -32104,6 +32250,18 @@
     "min": 3.5,
     "n_books": 8,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": 4.0,
+    "consensus": 4.0,
+    "date": "2026-09-29",
+    "draftkings": 3.5,
+    "fanduel": 3.5,
+    "max": 4.0,
+    "min": 3.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Tampa Bay Buccaneers",
@@ -32115,7 +32273,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": 4.0,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "9a55467e1cd6310ae2af20d8154612e1": {
   "away_team": "Miami Dolphins",
@@ -34143,10 +34309,10 @@
   "away_team": "Detroit Lions",
   "commence_time": "2026-10-05T00:20:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": 3.5,
    "consensus": 3.5,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": 3.5,
    "fanduel": 3.5,
    "max": 3.5,
@@ -34383,6 +34549,18 @@
     "min": 3.5,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": 3.5,
+    "consensus": 3.5,
+    "date": "2026-09-29",
+    "draftkings": 3.5,
+    "fanduel": 3.5,
+    "max": 3.5,
+    "min": 3.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Carolina Panthers",
@@ -34394,21 +34572,29 @@
    "n_books": 1,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": 3.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "a7e7efb75a9792ac63480ae6328dca18": {
   "away_team": "Denver Broncos",
   "commence_time": "2026-10-04T20:25:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": -3.0,
    "consensus": -3.0,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": -3.0,
    "fanduel": -2.5,
-   "max": -2.0,
+   "max": -2.5,
    "min": -3.0,
-   "n_books": 8,
+   "n_books": 9,
    "williamhill_us": null
   },
   "game_id": "a7e7efb75a9792ac63480ae6328dca18",
@@ -34604,6 +34790,18 @@
     "min": -3.0,
     "n_books": 8,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -3.0,
+    "consensus": -3.0,
+    "date": "2026-09-29",
+    "draftkings": -3.0,
+    "fanduel": -2.5,
+    "max": -2.5,
+    "min": -3.0,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "San Francisco 49ers",
@@ -34615,7 +34813,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -3.0,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "ab2865e9f2d4b012de8bc6fb6de11a7c": {
   "away_team": "Carolina Panthers",
@@ -39614,15 +39820,15 @@
   "away_team": "Miami Dolphins",
   "commence_time": "2026-10-04T20:05:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
-   "betmgm": -10.0,
-   "consensus": -10.0,
-   "date": "2026-09-28",
-   "draftkings": -10.0,
-   "fanduel": -9.5,
-   "max": -9.5,
-   "min": -10.0,
-   "n_books": 8,
+   "at": "2026-09-29T16:52:19+00:00",
+   "betmgm": -11.5,
+   "consensus": -11.0,
+   "date": "2026-09-29",
+   "draftkings": -11.5,
+   "fanduel": -11.5,
+   "max": -11.0,
+   "min": -11.5,
+   "n_books": 9,
    "williamhill_us": null
   },
   "game_id": "c327223d76a3b7b0db8c6c104442f44b",
@@ -39854,6 +40060,18 @@
     "min": -10.0,
     "n_books": 8,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -11.5,
+    "consensus": -11.0,
+    "date": "2026-09-29",
+    "draftkings": -11.5,
+    "fanduel": -11.5,
+    "max": -11.0,
+    "min": -11.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Minnesota Vikings",
@@ -39865,7 +40083,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -11.0,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "c4647ca1201e6768501877267ca8251b": {
   "away_team": "Cincinnati Bengals",
@@ -41502,14 +41728,14 @@
   "away_team": "Indianapolis Colts",
   "commence_time": "2026-10-04T13:30:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": 3.5,
    "consensus": 3.5,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": 3.5,
    "fanduel": 3.5,
    "max": 3.5,
-   "min": 3.5,
+   "min": 3.0,
    "n_books": 9,
    "williamhill_us": null
   },
@@ -41742,6 +41968,18 @@
     "min": 3.5,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": 3.5,
+    "consensus": 3.5,
+    "date": "2026-09-29",
+    "draftkings": 3.5,
+    "fanduel": 3.5,
+    "max": 3.5,
+    "min": 3.0,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Washington Commanders",
@@ -41753,7 +41991,15 @@
    "n_books": 3,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": 3.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "ca8982dccb6c3ae01525800317287f02": {
   "away_team": "Cincinnati Bengals",
@@ -43623,11 +43869,11 @@
   "away_team": "Pittsburgh Steelers",
   "commence_time": "2026-10-02T00:15:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
-   "betmgm": 2.5,
+   "at": "2026-09-29T16:52:19+00:00",
+   "betmgm": 3.0,
    "consensus": 2.5,
-   "date": "2026-09-28",
-   "draftkings": 3.0,
+   "date": "2026-09-29",
+   "draftkings": 2.5,
    "fanduel": 2.5,
    "max": 3.0,
    "min": 2.0,
@@ -43863,6 +44109,18 @@
     "min": 2.0,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": 3.0,
+    "consensus": 2.5,
+    "date": "2026-09-29",
+    "draftkings": 2.5,
+    "fanduel": 2.5,
+    "max": 3.0,
+    "min": 2.0,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Cleveland Browns",
@@ -43874,7 +44132,15 @@
    "n_books": 1,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": 2.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "d68dced0b26726890b9c79bd19a5ffe5": {
   "away_team": "Seattle Seahawks",
@@ -44572,10 +44838,10 @@
   "away_team": "Dallas Cowboys",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": -2.5,
    "consensus": -2.5,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": -2.5,
    "fanduel": -2.5,
    "max": -2.0,
@@ -44812,6 +45078,18 @@
     "min": -2.5,
     "n_books": 9,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -2.5,
+    "consensus": -2.5,
+    "date": "2026-09-29",
+    "draftkings": -2.5,
+    "fanduel": -2.5,
+    "max": -2.0,
+    "min": -2.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Houston Texans",
@@ -44823,7 +45101,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -2.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "dc2d9177b48e6f3962dabb1407aba7d3": {
   "away_team": "Seattle Seahawks",
@@ -45336,13 +45622,13 @@
   "away_team": "Kansas City Chiefs",
   "commence_time": "2026-10-04T20:25:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": null,
    "consensus": 4.5,
-   "date": "2026-09-28",
-   "draftkings": 5.5,
+   "date": "2026-09-29",
+   "draftkings": 4.5,
    "fanduel": 4.5,
-   "max": 5.5,
+   "max": 4.5,
    "min": 4.5,
    "n_books": 8,
    "williamhill_us": null
@@ -45576,6 +45862,18 @@
     "min": 4.5,
     "n_books": 8,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": null,
+    "consensus": 4.5,
+    "date": "2026-09-29",
+    "draftkings": 4.5,
+    "fanduel": 4.5,
+    "max": 4.5,
+    "min": 4.5,
+    "n_books": 8,
+    "williamhill_us": null
    }
   ],
   "home_team": "Las Vegas Raiders",
@@ -45587,7 +45885,15 @@
    "n_books": 1,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": 4.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 8
+  }
  },
  "e15a91cebf3480ff0b93b4fbacb09797": {
   "away_team": "New Orleans Saints",
@@ -48261,15 +48567,15 @@
   "away_team": "Tennessee Titans",
   "commence_time": "2026-10-04T17:00:00Z",
   "current": {
-   "at": "2026-09-28T18:34:48+00:00",
+   "at": "2026-09-29T16:52:19+00:00",
    "betmgm": -11.5,
    "consensus": -11.5,
-   "date": "2026-09-28",
+   "date": "2026-09-29",
    "draftkings": -11.5,
    "fanduel": -11.5,
    "max": -11.5,
    "min": -11.5,
-   "n_books": 8,
+   "n_books": 9,
    "williamhill_us": null
   },
   "game_id": "f01589b0e7e6dd4f4ac1220a1db81f53",
@@ -48501,6 +48807,18 @@
     "min": -11.5,
     "n_books": 8,
     "williamhill_us": null
+   },
+   {
+    "at": "2026-09-29T16:52:19+00:00",
+    "betmgm": -11.5,
+    "consensus": -11.5,
+    "date": "2026-09-29",
+    "draftkings": -11.5,
+    "fanduel": -11.5,
+    "max": -11.5,
+    "min": -11.5,
+    "n_books": 9,
+    "williamhill_us": null
    }
   ],
   "home_team": "Baltimore Ravens",
@@ -48512,7 +48830,15 @@
    "n_books": 2,
    "source": "baseline_at_setup"
   },
-  "week": 4
+  "week": 4,
+  "week_open": {
+   "at": "2026-09-29T16:52:19+00:00",
+   "consensus": -11.5,
+   "date": "2026-09-29",
+   "days_late": 0,
+   "expected_on": "2026-09-29",
+   "n_books": 9
+  }
  },
  "f122527f003276d3bca19efa48c902c1": {
   "away_team": "Washington Commanders",
