@@ -8,11 +8,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "New York Jets @ Chicago Bears",
    "weather": {
-    "gust_mph": 17.2,
+    "gust_mph": 10.5,
     "precip_pct": 1,
     "roofed": false,
-    "temp_f": 63.8,
-    "wind_mph": 11.6,
+    "temp_f": 66.2,
+    "wind_mph": 6.3,
     "windy": false
    }
   },
@@ -24,11 +24,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Los Angeles Rams @ Philadelphia Eagles",
    "weather": {
-    "gust_mph": 22.4,
-    "precip_pct": 45,
+    "gust_mph": 6.3,
+    "precip_pct": 6,
     "roofed": false,
-    "temp_f": 59.4,
-    "wind_mph": 7.8,
+    "temp_f": 69.2,
+    "wind_mph": 4.2,
     "windy": false
    }
   },
@@ -51,11 +51,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Jacksonville Jaguars @ Cincinnati Bengals",
    "weather": {
-    "gust_mph": 7.2,
-    "precip_pct": 21,
+    "gust_mph": 4.9,
+    "precip_pct": 15,
     "roofed": false,
-    "temp_f": 70.9,
-    "wind_mph": 4.2,
+    "temp_f": 73.6,
+    "wind_mph": 3.5,
     "windy": false
    }
   },
@@ -67,11 +67,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "New England Patriots @ Buffalo Bills",
    "weather": {
-    "gust_mph": 12.1,
-    "precip_pct": 9,
+    "gust_mph": 11.2,
+    "precip_pct": 1,
     "roofed": false,
-    "temp_f": 61.5,
-    "wind_mph": 7.7,
+    "temp_f": 68.4,
+    "wind_mph": 7.6,
     "windy": false
    }
   },
@@ -83,11 +83,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Arizona Cardinals @ New York Giants",
    "weather": {
-    "gust_mph": 15.4,
-    "precip_pct": 36,
+    "gust_mph": 5.8,
+    "precip_pct": 1,
     "roofed": false,
-    "temp_f": 55.7,
-    "wind_mph": 9.2,
+    "temp_f": 69.2,
+    "wind_mph": 4.3,
     "windy": false
    }
   },
@@ -110,11 +110,11 @@
    "kickoff": "2026-10-04T20:25:00Z",
    "matchup": "Los Angeles Chargers @ Seattle Seahawks",
    "weather": {
-    "gust_mph": 7.4,
+    "gust_mph": 6.3,
     "precip_pct": 0,
     "roofed": false,
-    "temp_f": 67.7,
-    "wind_mph": 8.0,
+    "temp_f": 69.7,
+    "wind_mph": 7.1,
     "windy": false
    }
   },
@@ -126,11 +126,11 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Green Bay Packers @ Tampa Bay Buccaneers",
    "weather": {
-    "gust_mph": 7.6,
-    "precip_pct": 2,
+    "gust_mph": 8.7,
+    "precip_pct": 3,
     "roofed": false,
-    "temp_f": 89.9,
-    "wind_mph": 7.1,
+    "temp_f": 89.4,
+    "wind_mph": 8.1,
     "windy": false
    }
   },
@@ -142,11 +142,11 @@
    "kickoff": "2026-10-05T00:20:00Z",
    "matchup": "Detroit Lions @ Carolina Panthers",
    "weather": {
-    "gust_mph": 1.8,
-    "precip_pct": 65,
+    "gust_mph": 4.7,
+    "precip_pct": 56,
     "roofed": false,
-    "temp_f": 66.0,
-    "wind_mph": 1.4,
+    "temp_f": 63.7,
+    "wind_mph": 3.0,
     "windy": false
    }
   },
@@ -158,11 +158,11 @@
    "kickoff": "2026-10-04T20:25:00Z",
    "matchup": "Denver Broncos @ San Francisco 49ers",
    "weather": {
-    "gust_mph": 4.9,
-    "precip_pct": 0,
+    "gust_mph": 4.5,
+    "precip_pct": 2,
     "roofed": false,
-    "temp_f": 89.1,
-    "wind_mph": 5.9,
+    "temp_f": 89.3,
+    "wind_mph": 4.6,
     "windy": false
    }
   },
@@ -185,11 +185,11 @@
    "kickoff": "2026-10-04T13:30:00Z",
    "matchup": "Indianapolis Colts @ Washington Commanders",
    "weather": {
-    "gust_mph": 14.5,
-    "precip_pct": 50,
+    "gust_mph": 10.5,
+    "precip_pct": 30,
     "roofed": false,
-    "temp_f": 60.5,
-    "wind_mph": 6.2,
+    "temp_f": 59.8,
+    "wind_mph": 5.0,
     "windy": false
    }
   },
@@ -201,11 +201,11 @@
    "kickoff": "2026-10-02T00:15:00Z",
    "matchup": "Pittsburgh Steelers @ Cleveland Browns",
    "weather": {
-    "gust_mph": 9.8,
-    "precip_pct": 8,
+    "gust_mph": 17.0,
+    "precip_pct": 11,
     "roofed": false,
-    "temp_f": 71.5,
-    "wind_mph": 5.9,
+    "temp_f": 77.9,
+    "wind_mph": 9.3,
     "windy": false
    }
   },
@@ -239,16 +239,16 @@
    "kickoff": "2026-10-04T17:00:00Z",
    "matchup": "Tennessee Titans @ Baltimore Ravens",
    "weather": {
-    "gust_mph": 8.7,
-    "precip_pct": 51,
+    "gust_mph": 7.6,
+    "precip_pct": 22,
     "roofed": false,
-    "temp_f": 60.2,
-    "wind_mph": 4.6,
+    "temp_f": 64.7,
+    "wind_mph": 5.2,
     "windy": false
    }
   }
  },
- "generated_at": "2026-09-29T16:52:19+00:00",
+ "generated_at": "2026-09-30T16:48:16+00:00",
  "horizon_days": 10,
  "wind_flag_mph": 15
 }
