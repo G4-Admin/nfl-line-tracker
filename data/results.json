@@ -419,6 +419,16 @@
   "recorded_at": "2026-09-14T16:56:35+00:00",
   "week": 1
  },
+ "d55cb69fed50a09170560b5b75d8de86": {
+  "away_score": 24,
+  "away_team": "Pittsburgh Steelers",
+  "closing_consensus": 2.5,
+  "home_margin": 3,
+  "home_score": 27,
+  "home_team": "Cleveland Browns",
+  "recorded_at": "2026-10-02T16:36:52+00:00",
+  "week": 4
+ },
  "e55c6fe19fce094ce214c8b0e5b504e9": {
   "away_score": 10,
   "away_team": "Cleveland Browns",
