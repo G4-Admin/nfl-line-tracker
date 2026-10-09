@@ -119,6 +119,16 @@
   "recorded_at": "2026-09-21T17:00:02+00:00",
   "week": 2
  },
+ "259b5df9aa0d10257f56de78523495e0": {
+  "away_score": 24,
+  "away_team": "Tampa Bay Buccaneers",
+  "closing_consensus": -9.0,
+  "home_margin": -8,
+  "home_score": 16,
+  "home_team": "Dallas Cowboys",
+  "recorded_at": "2026-10-09T17:26:02+00:00",
+  "week": 5
+ },
  "2a529c108305ffa049d8b6cfdbaa4d36": {
   "away_score": 31,
   "away_team": "Seattle Seahawks",
