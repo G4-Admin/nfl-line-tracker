@@ -54,20 +54,20 @@
     ],
     "home": [
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
       "name": "Behren Morton",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Drake Maye",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Dametrious Crownover",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-01",
@@ -106,11 +106,11 @@
    "kickoff": "2026-10-18T17:00:00Z",
    "matchup": "New York Jets @ New England Patriots",
    "weather": {
-    "gust_mph": 12.5,
-    "precip_pct": 8,
+    "gust_mph": 17.9,
+    "precip_pct": 2,
     "roofed": false,
-    "temp_f": 50.2,
-    "wind_mph": 12.2,
+    "temp_f": 43.2,
+    "wind_mph": 13.4,
     "windy": false
    }
   },
@@ -126,11 +126,11 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-07",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Zach Wilson",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
@@ -150,38 +150,46 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-08",
-      "detail": "Ankle",
-      "name": "Jaylan Ford",
-      "position": "Linebacker",
-      "status": "Injured Reserve",
-      "tier": 3
-     },
-     {
       "changed_on": "2026-10-10",
       "detail": "Calf",
       "name": "Kaden Elliss",
       "position": "Linebacker",
       "status": "Out",
       "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Mike Reid",
+      "position": "Cornerback",
+      "status": "Out",
+      "tier": 3
      }
     ],
     "home": [
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "",
-      "name": "Jake Haener",
+      "name": "J.J. McCarthy",
       "position": "Quarterback",
       "status": "Active",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Jameis Winston",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Jake Haener",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "J.C. Davis",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-08",
@@ -192,10 +200,18 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "Neck",
       "name": "Chauncey Golston",
       "position": "Defensive End",
+      "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Devin Singletary",
+      "position": "Running Back",
       "status": "Out",
       "tier": 3
      }
@@ -204,32 +220,24 @@
    "kickoff": "2026-10-18T17:00:00Z",
    "matchup": "New Orleans Saints @ New York Giants",
    "weather": {
-    "gust_mph": 18.6,
-    "precip_pct": 6,
+    "gust_mph": 23.3,
+    "precip_pct": 3,
     "roofed": false,
-    "temp_f": 51.1,
-    "wind_mph": 14.1,
-    "windy": false
+    "temp_f": 45.8,
+    "wind_mph": 17.7,
+    "windy": true
    }
   },
   "20fefae8c296247460ba5773caa42218": {
    "injuries": {
     "away": [
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Groin",
       "name": "Trey Lance",
       "position": "Quarterback",
-      "status": "Doubtful",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-07",
-      "detail": "Neck",
-      "name": "Branson Taylor",
-      "position": "Guard",
       "status": "Injured Reserve",
-      "tier": 2
+      "tier": 1
      },
      {
       "changed_on": "2026-10-10",
@@ -256,12 +264,20 @@
       "tier": 2
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Concussion",
       "name": "Trevor Penning",
       "position": "Guard",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 2
+     },
+     {
+      "changed_on": "2026-10-10",
+      "detail": "Quadriceps",
+      "name": "Brenen Thompson",
+      "position": "Wide Receiver",
+      "status": "Out",
+      "tier": 3
      }
     ],
     "home": [
@@ -294,114 +310,40 @@
    "kickoff": "2026-10-18T20:25:00Z",
    "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
    "weather": {
-    "gust_mph": 12.5,
-    "precip_pct": 5,
+    "gust_mph": 28.2,
+    "precip_pct": 2,
     "roofed": false,
-    "temp_f": 55.3,
-    "wind_mph": 11.2,
-    "windy": false
-   }
-  },
-  "21b26266f3d78af02eb672e606275d95": {
-   "injuries": {
-    "away": [
-     {
-      "changed_on": "2026-10-05",
-      "detail": "Coach's Decision",
-      "name": "Cole Payton",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Jalen Hurts",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Tanner McKee",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Knee",
-      "name": "Drew Kendall",
-      "position": "Center",
-      "status": "Out",
-      "tier": 2
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Hamstring",
-      "name": "DeVonta Smith",
-      "position": "Wide Receiver",
-      "status": "Out",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Ankle",
-      "name": "Hollywood Brown",
-      "position": "Wide Receiver",
-      "status": "Out",
-      "tier": 3
-     }
-    ],
-    "home": [
-     {
-      "changed_on": "2026-10-08",
-      "detail": "Knee",
-      "name": "Christian Braswell",
-      "position": "Cornerback",
-      "status": "Injured Reserve",
-      "tier": 3
-     }
-    ]
-   },
-   "kickoff": "2026-10-11T13:30:00Z",
-   "matchup": "Philadelphia Eagles @ Jacksonville Jaguars",
-   "weather": {
-    "gust_mph": 17.7,
-    "precip_pct": 31,
-    "roofed": false,
-    "temp_f": 76.4,
-    "wind_mph": 8.9,
-    "windy": false
+    "temp_f": 60.4,
+    "wind_mph": 17.8,
+    "windy": true
    }
   },
   "27f3994841ce8081c0b7349cf3d1e3d7": {
    "injuries": {
     "away": [
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Aaron Rodgers",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Drew Allar",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Will Howard",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Eli Heidenreich",
+      "position": "Running Back",
+      "status": "Out",
+      "tier": 3
      },
      {
       "changed_on": "2026-10-10",
@@ -412,10 +354,18 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "Foot",
       "name": "Michael Pittman Jr.",
       "position": "Wide Receiver",
+      "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Toe",
+      "name": "Rico Dowdle",
+      "position": "Running Back",
       "status": "Out",
       "tier": 3
      }
@@ -474,23 +424,23 @@
    "kickoff": "2026-10-18T17:00:00Z",
    "matchup": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
    "weather": {
-    "gust_mph": 16.3,
-    "precip_pct": 6,
+    "gust_mph": 29.1,
+    "precip_pct": 4,
     "roofed": false,
-    "temp_f": 67.3,
-    "wind_mph": 14.4,
-    "windy": false
+    "temp_f": 67.8,
+    "wind_mph": 23.1,
+    "windy": true
    }
   },
   "2caea57b1e5cfbba1334cfbfd46f6771": {
    "injuries": {
     "away": [
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Hamstring",
       "name": "Caleb Williams",
       "position": "Quarterback",
-      "status": "Questionable",
+      "status": "Out",
       "tier": 1
      },
      {
@@ -510,26 +460,26 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-04",
-      "detail": "Knee",
-      "name": "Braxton Jones",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Ozzy Trapilo",
       "position": "Offensive Tackle",
-      "status": "Injured Reserve",
+      "status": "Out",
       "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Jamree Kromah",
+      "position": "Defensive End",
+      "status": "Out",
+      "tier": 3
      },
      {
       "changed_on": "2026-10-10",
       "detail": "Quadriceps",
       "name": "Keyshaun Elliott",
       "position": "Linebacker",
-      "status": "Out",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-09",
-      "detail": "Toe",
-      "name": "Kyle Monangai",
-      "position": "Running Back",
       "status": "Out",
       "tier": 3
      }
@@ -544,27 +494,35 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Toe",
       "name": "Aaron Banks",
       "position": "Guard",
-      "status": "Doubtful",
+      "status": "Out",
       "tier": 2
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Donovan Jennings",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
       "detail": "Quadriceps",
       "name": "Jacob Monk",
       "position": "Center",
-      "status": "Doubtful",
+      "status": "Out",
       "tier": 2
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Ankle",
       "name": "Chris Brooks",
       "position": "Running Back",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 3
      },
      {
@@ -574,25 +532,17 @@
       "position": "Linebacker",
       "status": "Injured Reserve",
       "tier": 3
-     },
-     {
-      "changed_on": "2026-10-01",
-      "detail": "Knee - ACL",
-      "name": "Micah Parsons",
-      "position": "Defensive End",
-      "status": "Out",
-      "tier": 3
      }
     ]
    },
    "kickoff": "2026-10-11T17:00:00Z",
    "matchup": "Chicago Bears @ Green Bay Packers",
    "weather": {
-    "gust_mph": 26.2,
+    "gust_mph": 21.7,
     "precip_pct": 0,
     "roofed": false,
-    "temp_f": 74.0,
-    "wind_mph": 13.8,
+    "temp_f": 73.5,
+    "wind_mph": 11.6,
     "windy": false
    }
   },
@@ -608,11 +558,11 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
       "name": "Max Brosmer",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
@@ -632,19 +582,19 @@
       "tier": 2
      },
      {
-      "changed_on": "2026-10-08",
-      "detail": "Elbow",
-      "name": "Michael Jurgens",
-      "position": "Center",
-      "status": "Injured Reserve",
-      "tier": 2
+      "changed_on": "2026-10-10",
+      "detail": "Hamstring",
+      "name": "Charles Demmings",
+      "position": "Cornerback",
+      "status": "Out",
+      "tier": 3
      },
      {
-      "changed_on": "2026-10-08",
-      "detail": "Ankle",
-      "name": "Ben Yurosek",
-      "position": "Tight End",
-      "status": "Injured Reserve",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Elijah Williams",
+      "position": "Defensive End",
+      "status": "Out",
       "tier": 3
      }
     ],
@@ -658,11 +608,11 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-07",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Zach Wilson",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
@@ -682,18 +632,18 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-08",
-      "detail": "Ankle",
-      "name": "Jaylan Ford",
-      "position": "Linebacker",
-      "status": "Injured Reserve",
-      "tier": 3
-     },
-     {
       "changed_on": "2026-10-10",
       "detail": "Calf",
       "name": "Kaden Elliss",
       "position": "Linebacker",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Mike Reid",
+      "position": "Cornerback",
       "status": "Out",
       "tier": 3
      }
@@ -725,11 +675,11 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "Ankle",
       "name": "Isaiah Adams",
       "position": "Guard",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 2
      },
      {
@@ -775,6 +725,14 @@
       "tier": 1
      },
      {
+      "changed_on": "2026-10-11",
+      "detail": "Knee",
+      "name": "Myles Garrett",
+      "position": "Defensive End",
+      "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
       "changed_on": "2026-10-03",
       "detail": "Ankle",
       "name": "Terrance Ferguson",
@@ -810,20 +768,20 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Riley Leonard",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "Heel",
-      "name": "Alec Pierce",
-      "position": "Wide Receiver",
-      "status": "Injured Reserve",
-      "tier": 3
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Dalton Tucker",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-10",
@@ -844,28 +802,28 @@
     ],
     "home": [
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Aaron Rodgers",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Drew Allar",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Will Howard",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Eli Heidenreich",
+      "position": "Running Back",
+      "status": "Out",
+      "tier": 3
      },
      {
       "changed_on": "2026-10-10",
@@ -876,10 +834,18 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "Foot",
       "name": "Michael Pittman Jr.",
       "position": "Wide Receiver",
+      "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Toe",
+      "name": "Rico Dowdle",
+      "position": "Running Back",
       "status": "Out",
       "tier": 3
      }
@@ -888,12 +854,12 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "matchup": "Indianapolis Colts @ Pittsburgh Steelers",
    "weather": {
-    "gust_mph": 36.0,
-    "precip_pct": 52,
+    "gust_mph": 23.9,
+    "precip_pct": 75,
     "roofed": false,
-    "temp_f": 64.4,
-    "wind_mph": 15.6,
-    "windy": true
+    "temp_f": 63.0,
+    "wind_mph": 10.3,
+    "windy": false
    }
   },
   "45b2690b350ed45145c7a716b18e8e66": {
@@ -906,15 +872,23 @@
       "position": "Quarterback",
       "status": "Active",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Shoulder",
+      "name": "Joshua Palmer",
+      "position": "Wide Receiver",
+      "status": "Out",
+      "tier": 3
      }
     ],
     "home": [
      {
-      "changed_on": "2026-10-04",
-      "detail": "Personal",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
       "name": "Aidan O'Connell",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
@@ -970,14 +944,6 @@
     "away": [
      {
       "changed_on": "2026-10-08",
-      "detail": "",
-      "name": "Mark Gronowski",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-08",
       "detail": "Foot",
       "name": "Braden Smith",
       "position": "Offensive Tackle",
@@ -985,29 +951,77 @@
       "tier": 2
      },
      {
-      "changed_on": "2026-10-07",
-      "detail": "Hamstring",
-      "name": "Jaylin Smith",
-      "position": "Cornerback",
-      "status": "Injured Reserve",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Febechi Nwaiwu",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Nate Thomas",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Aiden Fisher",
+      "position": "Linebacker",
+      "status": "Out",
       "tier": 3
      },
      {
-      "changed_on": "2026-10-05",
-      "detail": "Knee - ACL + MCL",
-      "name": "Tank Dell",
-      "position": "Wide Receiver",
-      "status": "Injured Reserve",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Chris Braswell",
+      "position": "Defensive End",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Collin Wright",
+      "position": "Cornerback",
+      "status": "Out",
       "tier": 3
      }
     ],
     "home": [
      {
-      "changed_on": "2026-10-08",
-      "detail": "Knee",
-      "name": "Christian Braswell",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Daniel Faalele",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Alijah Huzzie",
       "position": "Cornerback",
-      "status": "Injured Reserve",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "CJ Williams",
+      "position": "Wide Receiver",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Wesley Williams",
+      "position": "Defensive End",
+      "status": "Out",
       "tier": 3
      }
     ]
@@ -1015,23 +1029,23 @@
    "kickoff": "2026-10-18T13:30:00Z",
    "matchup": "Houston Texans @ Jacksonville Jaguars",
    "weather": {
-    "gust_mph": 18.6,
-    "precip_pct": 13,
+    "gust_mph": 27.5,
+    "precip_pct": 9,
     "roofed": false,
-    "temp_f": 53.9,
-    "wind_mph": 11.5,
-    "windy": false
+    "temp_f": 52.6,
+    "wind_mph": 15.6,
+    "windy": true
    }
   },
   "6b024bad1abb54f597225e4ab9b39d89": {
    "injuries": {
     "away": [
      {
-      "changed_on": "2026-10-04",
-      "detail": "Personal",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
       "name": "Aidan O'Connell",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
@@ -1077,20 +1091,20 @@
     ],
     "home": [
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
       "name": "Behren Morton",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Drake Maye",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Dametrious Crownover",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-01",
@@ -1129,11 +1143,11 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "matchup": "Las Vegas Raiders @ New England Patriots",
    "weather": {
-    "gust_mph": 15.0,
-    "precip_pct": 2,
+    "gust_mph": 15.9,
+    "precip_pct": 6,
     "roofed": false,
-    "temp_f": 64.5,
-    "wind_mph": 9.7,
+    "temp_f": 60.0,
+    "wind_mph": 7.6,
     "windy": false
    }
   },
@@ -1141,11 +1155,11 @@
    "injuries": {
     "away": [
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Hamstring",
       "name": "Caleb Williams",
       "position": "Quarterback",
-      "status": "Questionable",
+      "status": "Out",
       "tier": 1
      },
      {
@@ -1165,26 +1179,26 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-04",
-      "detail": "Knee",
-      "name": "Braxton Jones",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Ozzy Trapilo",
       "position": "Offensive Tackle",
-      "status": "Injured Reserve",
+      "status": "Out",
       "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Jamree Kromah",
+      "position": "Defensive End",
+      "status": "Out",
+      "tier": 3
      },
      {
       "changed_on": "2026-10-10",
       "detail": "Quadriceps",
       "name": "Keyshaun Elliott",
       "position": "Linebacker",
-      "status": "Out",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-09",
-      "detail": "Toe",
-      "name": "Kyle Monangai",
-      "position": "Running Back",
       "status": "Out",
       "tier": 3
      }
@@ -1215,10 +1229,18 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Hamstring",
       "name": "Yasir Abdullah",
       "position": "Linebacker",
+      "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Concussion",
+      "name": "Za'Darius Smith",
+      "position": "Defensive End",
       "status": "Out",
       "tier": 3
      }
@@ -1292,27 +1314,35 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Toe",
       "name": "Aaron Banks",
       "position": "Guard",
-      "status": "Doubtful",
+      "status": "Out",
       "tier": 2
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Donovan Jennings",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
       "detail": "Quadriceps",
       "name": "Jacob Monk",
       "position": "Center",
-      "status": "Doubtful",
+      "status": "Out",
       "tier": 2
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Ankle",
       "name": "Chris Brooks",
       "position": "Running Back",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 3
      },
      {
@@ -1322,26 +1352,18 @@
       "position": "Linebacker",
       "status": "Injured Reserve",
       "tier": 3
-     },
-     {
-      "changed_on": "2026-10-01",
-      "detail": "Knee - ACL",
-      "name": "Micah Parsons",
-      "position": "Defensive End",
-      "status": "Out",
-      "tier": 3
      }
     ]
    },
    "kickoff": "2026-10-19T00:20:00Z",
    "matchup": "Dallas Cowboys @ Green Bay Packers",
    "weather": {
-    "gust_mph": 19.7,
-    "precip_pct": 1,
+    "gust_mph": 42.1,
+    "precip_pct": 3,
     "roofed": false,
-    "temp_f": 37.8,
-    "wind_mph": 8.4,
-    "windy": false
+    "temp_f": 47.3,
+    "wind_mph": 23.1,
+    "windy": true
    }
   },
   "84aa9e190e625d7e9cd67e1f157a45b4": {
@@ -1356,11 +1378,43 @@
       "tier": 1
      },
      {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Brandon Crenshaw-Dickson",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Hamstring",
+      "name": "David Martin-Robinson",
+      "position": "Tight End",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Jaylon Jones",
+      "position": "Cornerback",
+      "status": "Out",
+      "tier": 3
+     },
+     {
       "changed_on": "2026-10-08",
       "detail": "Pectoral",
       "name": "Joshua Williams",
       "position": "Cornerback",
       "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Michael Carter",
+      "position": "Running Back",
+      "status": "Out",
       "tier": 3
      }
     ],
@@ -1382,20 +1436,20 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Riley Leonard",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "Heel",
-      "name": "Alec Pierce",
-      "position": "Wide Receiver",
-      "status": "Injured Reserve",
-      "tier": 3
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Dalton Tucker",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-10",
@@ -1449,11 +1503,11 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Hamstring",
       "name": "Julian Neal",
       "position": "Cornerback",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 3
      },
      {
@@ -1519,11 +1573,11 @@
    "kickoff": "2026-10-16T00:15:00Z",
    "matchup": "Seattle Seahawks @ Denver Broncos",
    "weather": {
-    "gust_mph": 7.8,
-    "precip_pct": 9,
+    "gust_mph": 12.3,
+    "precip_pct": 16,
     "roofed": false,
-    "temp_f": 65.8,
-    "wind_mph": 3.2,
+    "temp_f": 61.9,
+    "wind_mph": 11.2,
     "windy": false
    }
   },
@@ -1605,10 +1659,18 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Hamstring",
       "name": "Yasir Abdullah",
       "position": "Linebacker",
+      "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Concussion",
+      "name": "Za'Darius Smith",
+      "position": "Defensive End",
       "status": "Out",
       "tier": 3
      }
@@ -1638,22 +1700,6 @@
       "position": "Quarterback",
       "status": "Active",
       "tier": 1
-     },
-     {
-      "changed_on": "2026-10-03",
-      "detail": "Calf",
-      "name": "Christian Kirk",
-      "position": "Wide Receiver",
-      "status": "Injured Reserve",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Knee - ACL",
-      "name": "Mykel Williams",
-      "position": "Defensive End",
-      "status": "Out",
-      "tier": 3
      },
      {
       "changed_on": "2026-10-10",
@@ -1690,11 +1736,11 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Hamstring",
       "name": "Julian Neal",
       "position": "Cornerback",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 3
      },
      {
@@ -1710,11 +1756,11 @@
    "kickoff": "2026-10-11T20:25:00Z",
    "matchup": "San Francisco 49ers @ Seattle Seahawks",
    "weather": {
-    "gust_mph": 14.3,
-    "precip_pct": 1,
+    "gust_mph": 11.4,
+    "precip_pct": 0,
     "roofed": false,
-    "temp_f": 59.0,
-    "wind_mph": 8.8,
+    "temp_f": 56.2,
+    "wind_mph": 7.6,
     "windy": false
    }
   },
@@ -1738,12 +1784,20 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Taylen Green",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Parker Brailsford",
+      "position": "Center",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-10",
@@ -1758,14 +1812,6 @@
       "detail": "Calf",
       "name": "Carsen Ryan",
       "position": "Tight End",
-      "status": "Out",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Knee",
-      "name": "Tylan Wallace",
-      "position": "Wide Receiver",
       "status": "Out",
       "tier": 3
      }
@@ -1824,11 +1870,11 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "matchup": "Cleveland Browns @ New York Jets",
    "weather": {
-    "gust_mph": 23.0,
-    "precip_pct": 76,
+    "gust_mph": 23.5,
+    "precip_pct": 67,
     "roofed": false,
-    "temp_f": 65.8,
-    "wind_mph": 10.3,
+    "temp_f": 64.3,
+    "wind_mph": 10.7,
     "windy": false
    }
   },
@@ -1844,6 +1890,38 @@
       "tier": 1
      },
      {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Connor Lew",
+      "position": "Center",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Myles Hinton",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Knee",
+      "name": "Colbie Young",
+      "position": "Wide Receiver",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Jack Endries",
+      "position": "Tight End",
+      "status": "Out",
+      "tier": 3
+     },
+     {
       "changed_on": "2026-10-01",
       "detail": "Hamstring",
       "name": "Jalen Davis",
@@ -1856,18 +1934,26 @@
      {
       "changed_on": "2026-10-01",
       "detail": "",
-      "name": "Brady Cook",
+      "name": "Malik Willis",
       "position": "Quarterback",
       "status": "Active",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Malik Willis",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Chukwuebuka Godrick",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "DJ Campbell",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-10",
@@ -1886,18 +1972,10 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-06",
-      "detail": "Quadriceps",
-      "name": "Reese Taylor",
-      "position": "Cornerback",
-      "status": "Out",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Hamstring",
-      "name": "Robert Beal Jr.",
-      "position": "Defensive End",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Kaytron Allen",
+      "position": "Running Back",
       "status": "Out",
       "tier": 3
      }
@@ -1906,11 +1984,11 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "matchup": "Cincinnati Bengals @ Miami Dolphins",
    "weather": {
-    "gust_mph": 12.8,
-    "precip_pct": 2,
+    "gust_mph": 11.4,
+    "precip_pct": 1,
     "roofed": false,
-    "temp_f": 89.6,
-    "wind_mph": 9.8,
+    "temp_f": 89.8,
+    "wind_mph": 8.9,
     "windy": false
    }
   },
@@ -1976,22 +2054,6 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Jalen Hurts",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Tanner McKee",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
       "changed_on": "2026-10-10",
       "detail": "Knee",
       "name": "Drew Kendall",
@@ -2014,6 +2076,22 @@
       "position": "Wide Receiver",
       "status": "Out",
       "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Ankle",
+      "name": "Jonathan Greenard",
+      "position": "Linebacker",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-10",
+      "detail": "Hamstring",
+      "name": "Saquon Barkley",
+      "position": "Running Back",
+      "status": "Out",
+      "tier": 3
      }
     ]
    },
@@ -2025,14 +2103,6 @@
     "away": [
      {
       "changed_on": "2026-10-08",
-      "detail": "",
-      "name": "Mark Gronowski",
-      "position": "Quarterback",
-      "status": "Active",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-08",
       "detail": "Foot",
       "name": "Braden Smith",
       "position": "Offensive Tackle",
@@ -2040,19 +2110,43 @@
       "tier": 2
      },
      {
-      "changed_on": "2026-10-07",
-      "detail": "Hamstring",
-      "name": "Jaylin Smith",
-      "position": "Cornerback",
-      "status": "Injured Reserve",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Febechi Nwaiwu",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Nate Thomas",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Aiden Fisher",
+      "position": "Linebacker",
+      "status": "Out",
       "tier": 3
      },
      {
-      "changed_on": "2026-10-05",
-      "detail": "Knee - ACL + MCL",
-      "name": "Tank Dell",
-      "position": "Wide Receiver",
-      "status": "Injured Reserve",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Chris Braswell",
+      "position": "Defensive End",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Collin Wright",
+      "position": "Cornerback",
+      "status": "Out",
       "tier": 3
      }
     ],
@@ -2066,11 +2160,43 @@
       "tier": 1
      },
      {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Brandon Crenshaw-Dickson",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Hamstring",
+      "name": "David Martin-Robinson",
+      "position": "Tight End",
+      "status": "Out",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Jaylon Jones",
+      "position": "Cornerback",
+      "status": "Out",
+      "tier": 3
+     },
+     {
       "changed_on": "2026-10-08",
       "detail": "Pectoral",
       "name": "Joshua Williams",
       "position": "Cornerback",
       "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Michael Carter",
+      "position": "Running Back",
+      "status": "Out",
       "tier": 3
      }
     ]
@@ -2078,11 +2204,11 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "matchup": "Houston Texans @ Tennessee Titans",
    "weather": {
-    "gust_mph": 15.4,
-    "precip_pct": 9,
+    "gust_mph": 16.8,
+    "precip_pct": 1,
     "roofed": false,
-    "temp_f": 65.9,
-    "wind_mph": 8.4,
+    "temp_f": 66.5,
+    "wind_mph": 9.4,
     "windy": false
    }
   },
@@ -2140,20 +2266,12 @@
     ],
     "home": [
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Groin",
       "name": "Trey Lance",
       "position": "Quarterback",
-      "status": "Doubtful",
-      "tier": 1
-     },
-     {
-      "changed_on": "2026-10-07",
-      "detail": "Neck",
-      "name": "Branson Taylor",
-      "position": "Guard",
       "status": "Injured Reserve",
-      "tier": 2
+      "tier": 1
      },
      {
       "changed_on": "2026-10-10",
@@ -2180,12 +2298,20 @@
       "tier": 2
      },
      {
-      "changed_on": "2026-10-10",
+      "changed_on": "2026-10-11",
       "detail": "Concussion",
       "name": "Trevor Penning",
       "position": "Guard",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 2
+     },
+     {
+      "changed_on": "2026-10-10",
+      "detail": "Quadriceps",
+      "name": "Brenen Thompson",
+      "position": "Wide Receiver",
+      "status": "Out",
+      "tier": 3
      }
     ]
    },
@@ -2205,6 +2331,14 @@
       "position": "Quarterback",
       "status": "Active",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Shoulder",
+      "name": "Joshua Palmer",
+      "position": "Wide Receiver",
+      "status": "Out",
+      "tier": 3
      }
     ],
     "home": [
@@ -2223,6 +2357,14 @@
       "position": "Quarterback",
       "status": "Active",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Knee",
+      "name": "Myles Garrett",
+      "position": "Defensive End",
+      "status": "Injured Reserve",
+      "tier": 3
      },
      {
       "changed_on": "2026-10-03",
@@ -2310,12 +2452,20 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-05",
+      "changed_on": "2026-10-11",
       "detail": "Coach's Decision",
       "name": "Taylen Green",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Parker Brailsford",
+      "position": "Center",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-10",
@@ -2332,25 +2482,17 @@
       "position": "Tight End",
       "status": "Out",
       "tier": 3
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Knee",
-      "name": "Tylan Wallace",
-      "position": "Wide Receiver",
-      "status": "Out",
-      "tier": 3
      }
     ]
    },
    "kickoff": "2026-10-18T17:00:00Z",
    "matchup": "Baltimore Ravens @ Cleveland Browns",
    "weather": {
-    "gust_mph": 15.4,
-    "precip_pct": 7,
+    "gust_mph": 8.9,
+    "precip_pct": 4,
     "roofed": false,
-    "temp_f": 44.0,
-    "wind_mph": 13.8,
+    "temp_f": 45.1,
+    "wind_mph": 8.0,
     "windy": false
    }
   },
@@ -2374,17 +2516,17 @@
       "tier": 1
      },
      {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Tanoa Togiai",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
+     },
+     {
       "changed_on": "2026-10-10",
       "detail": "Groin",
       "name": "Charles Omenihu",
-      "position": "Defensive End",
-      "status": "Out",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-08",
-      "detail": "Quadriceps",
-      "name": "Deatrich Wise Jr.",
       "position": "Defensive End",
       "status": "Out",
       "tier": 3
@@ -2424,22 +2566,6 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-03",
-      "detail": "Calf",
-      "name": "Christian Kirk",
-      "position": "Wide Receiver",
-      "status": "Injured Reserve",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-10",
-      "detail": "Knee - ACL",
-      "name": "Mykel Williams",
-      "position": "Defensive End",
-      "status": "Out",
-      "tier": 3
-     },
-     {
       "changed_on": "2026-10-10",
       "detail": "Calf",
       "name": "Nick Bosa",
@@ -2452,11 +2578,11 @@
    "kickoff": "2026-10-20T00:15:00Z",
    "matchup": "Washington Commanders @ San Francisco 49ers",
    "weather": {
-    "gust_mph": 9.8,
+    "gust_mph": 12.3,
     "precip_pct": 1,
     "roofed": false,
-    "temp_f": 73.1,
-    "wind_mph": 8.7,
+    "temp_f": 72.4,
+    "wind_mph": 9.5,
     "windy": false
    }
   },
@@ -2514,11 +2640,11 @@
       "tier": 1
      },
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "Ankle",
       "name": "Isaiah Adams",
       "position": "Guard",
-      "status": "Out",
+      "status": "Injured Reserve",
       "tier": 2
      },
      {
@@ -2557,20 +2683,28 @@
    "injuries": {
     "away": [
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "",
-      "name": "Jake Haener",
+      "name": "J.J. McCarthy",
       "position": "Quarterback",
       "status": "Active",
       "tier": 1
      },
      {
-      "changed_on": "2026-10-01",
-      "detail": "",
-      "name": "Jameis Winston",
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Jake Haener",
       "position": "Quarterback",
-      "status": "Active",
+      "status": "Out",
       "tier": 1
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "J.C. Davis",
+      "position": "Offensive Tackle",
+      "status": "Out",
+      "tier": 2
      },
      {
       "changed_on": "2026-10-08",
@@ -2581,10 +2715,18 @@
       "tier": 3
      },
      {
-      "changed_on": "2026-10-08",
+      "changed_on": "2026-10-11",
       "detail": "Neck",
       "name": "Chauncey Golston",
       "position": "Defensive End",
+      "status": "Injured Reserve",
+      "tier": 3
+     },
+     {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Devin Singletary",
+      "position": "Running Back",
       "status": "Out",
       "tier": 3
      }
@@ -2607,17 +2749,17 @@
       "tier": 1
      },
      {
+      "changed_on": "2026-10-11",
+      "detail": "Coach's Decision",
+      "name": "Tanoa Togiai",
+      "position": "Guard",
+      "status": "Out",
+      "tier": 2
+     },
+     {
       "changed_on": "2026-10-10",
       "detail": "Groin",
       "name": "Charles Omenihu",
-      "position": "Defensive End",
-      "status": "Out",
-      "tier": 3
-     },
-     {
-      "changed_on": "2026-10-08",
-      "detail": "Quadriceps",
-      "name": "Deatrich Wise Jr.",
       "position": "Defensive End",
       "status": "Out",
       "tier": 3
@@ -2643,16 +2785,16 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "matchup": "New York Giants @ Washington Commanders",
    "weather": {
-    "gust_mph": 16.3,
-    "precip_pct": 68,
+    "gust_mph": 28.6,
+    "precip_pct": 85,
     "roofed": false,
-    "temp_f": 68.3,
-    "wind_mph": 7.9,
+    "temp_f": 65.9,
+    "wind_mph": 12.9,
     "windy": false
    }
   }
  },
- "generated_at": "2026-10-10T16:12:53+00:00",
+ "generated_at": "2026-10-11T16:37:40+00:00",
  "horizon_days": 10,
  "wind_flag_mph": 15
 }
