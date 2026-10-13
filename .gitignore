@@ -3,3 +3,4 @@ __pycache__/
 dashboard.html
 .DS_Store
 *.zip
+Claude outputs/
