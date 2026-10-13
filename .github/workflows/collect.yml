@@ -2,18 +2,19 @@ name: Collect NFL lines
 
 on:
   schedule:
-    # 05:12 America/Denver during MDT (11:12 UTC), 04:12 after the November
-    # clock change. GitHub cron is UTC-only. Deliberately NOT on the hour:
-    # top-of-hour is when everyone's crons fire, and GitHub delays or drops
-    # scheduled runs under that load. An odd minute gets picked up on time.
+    # 06:12 UTC = 12:12am Denver (MDT), 11:12pm (MST after the November change).
+    # Deliberately off the hour: top-of-hour is when everyone's crons fire and
+    # GitHub drops or delays scheduled runs under that load.
     #
-    # Why 11:12 and not 15:12: the run itself is only the start time. Measured
-    # 09-02..09-09, the output landed 1h50m-3h44m after the cron, every day
-    # between 17:02 and 18:56 UTC -- i.e. after the 16:00 UTC (10am Denver)
-    # tracker run had already read the file and stopped at its freshness gate.
-    # Four hours earlier puts the output on the ground around 13:00-15:00 UTC,
-    # ahead of both the daily tracker run and Saturday's picks deadline.
-    - cron: "12 11 * * *"
+    # Why so early. GitHub does not start this when the cron says. Measured
+    # 09-21..10-12 the commit landed 3h45m to 9h03m after the cron fired. The
+    # tracker run reads at 16:00 UTC, so an 11:12 cron was landing after it on
+    # most days. 06:12 leaves ~9h48m of slack.
+    #
+    # Why not earlier. It must run AFTER the previous night's game finishes or
+    # there is no final score to collect. A Monday nighter plus overtime ends by
+    # about 04:00 UTC; 06:12 clears that with ~2h to spare.
+    - cron: "12 6 * * *"
   workflow_dispatch: {}
 
 permissions:
