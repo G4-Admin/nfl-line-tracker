@@ -709,6 +709,16 @@
   "recorded_at": "2026-09-25T15:48:00+00:00",
   "week": 3
  },
+ "e6d00eedd87d367e510314bd8cab8f6f": {
+  "away_score": 37,
+  "away_team": "Buffalo Bills",
+  "closing_consensus": -3.5,
+  "home_margin": -3,
+  "home_score": 34,
+  "home_team": "Los Angeles Rams",
+  "recorded_at": "2026-10-13T18:12:41+00:00",
+  "week": 5
+ },
  "ed6d24ff979f9c71979fead577b0b3f7": {
   "away_score": 27,
   "away_team": "Tampa Bay Buccaneers",
