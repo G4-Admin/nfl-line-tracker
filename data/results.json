@@ -409,6 +409,16 @@
   "recorded_at": "2026-09-28T18:35:21+00:00",
   "week": 3
  },
+ "855f58fad5f0f14b239f4f63df27998b": {
+  "away_score": 14,
+  "away_team": "Seattle Seahawks",
+  "closing_consensus": 2.5,
+  "home_margin": 3,
+  "home_score": 17,
+  "home_team": "Denver Broncos",
+  "recorded_at": "2026-10-16T11:16:18+00:00",
+  "week": 6
+ },
  "85ef85098ddd22fe4ecf45e7e3c0a9c0": {
   "away_score": 20,
   "away_team": "Washington Commanders",
