@@ -928,5 +928,15 @@
   "home_team": "Carolina Panthers",
   "recorded_at": "2026-09-14T16:56:35+00:00",
   "week": 1
+ },
+ "ffebea881c1d7b2dfb85b3e590c35985": {
+  "away_score": 24,
+  "away_team": "New England Patriots",
+  "closing_consensus": -3.0,
+  "home_margin": 6,
+  "home_score": 30,
+  "home_team": "Chicago Bears",
+  "recorded_at": "2026-10-23T11:32:39+00:00",
+  "week": 7
  }
 }
