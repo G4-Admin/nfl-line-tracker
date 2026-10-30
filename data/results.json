@@ -729,6 +729,16 @@
   "recorded_at": "2026-10-05T19:46:13+00:00",
   "week": 4
  },
+ "ab2865e9f2d4b012de8bc6fb6de11a7c": {
+  "away_score": 19,
+  "away_team": "Carolina Panthers",
+  "closing_consensus": -3.5,
+  "home_margin": 8,
+  "home_score": 27,
+  "home_team": "Green Bay Packers",
+  "recorded_at": "2026-10-30T12:47:11+00:00",
+  "week": 8
+ },
  "acc580d74344ea3b31bbcdd057fe6a9c": {
   "away_score": 27,
   "away_team": "San Francisco 49ers",
