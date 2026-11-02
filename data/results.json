@@ -19,6 +19,16 @@
   "recorded_at": "2026-09-28T18:35:21+00:00",
   "week": 3
  },
+ "05405af79752f5e742cdf50b61f6745e": {
+  "away_score": 24,
+  "away_team": "New England Patriots",
+  "closing_consensus": 7.0,
+  "home_margin": -5,
+  "home_score": 19,
+  "home_team": "Miami Dolphins",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
+ },
  "0636ebff776d43f8c829a36713c80b22": {
   "away_score": 23,
   "away_team": "Cleveland Browns",
@@ -48,6 +58,16 @@
   "home_team": "New England Patriots",
   "recorded_at": "2026-10-19T13:02:24+00:00",
   "week": 6
+ },
+ "159dbf0253dd2038eda2212f84387f0c": {
+  "away_score": 7,
+  "away_team": "Indianapolis Colts",
+  "closing_consensus": -10.0,
+  "home_margin": 35,
+  "home_score": 42,
+  "home_team": "Jacksonville Jaguars",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
  },
  "164e6eb68f31bac190381903c3cccd31": {
   "away_score": 12,
@@ -269,6 +289,16 @@
   "recorded_at": "2026-10-05T19:46:13+00:00",
   "week": 4
  },
+ "2ff84d3f6053d083c8c0a5bebf7cdd4c": {
+  "away_score": 9,
+  "away_team": "Los Angeles Chargers",
+  "closing_consensus": -6.5,
+  "home_margin": 15,
+  "home_score": 24,
+  "home_team": "Los Angeles Rams",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
+ },
  "32367f882fac1a0c20a6335619922025": {
   "away_score": 6,
   "away_team": "New York Giants",
@@ -398,6 +428,16 @@
   "home_team": "Kansas City Chiefs",
   "recorded_at": "2026-09-21T17:00:02+00:00",
   "week": 2
+ },
+ "52e7ee9c42525e6deec02da32dc2fad8": {
+  "away_score": 15,
+  "away_team": "Minnesota Vikings",
+  "closing_consensus": -3.5,
+  "home_margin": 4,
+  "home_score": 19,
+  "home_team": "Detroit Lions",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
  },
  "550ec5290f935d311995affbcb0b5c79": {
   "away_score": 35,
@@ -649,6 +689,26 @@
   "recorded_at": "2026-10-12T20:15:16+00:00",
   "week": 5
  },
+ "921859689f5f8b3b8b1caf4248bdb1ec": {
+  "away_score": 0,
+  "away_team": "Atlanta Falcons",
+  "closing_consensus": -2.0,
+  "home_margin": 16,
+  "home_score": 16,
+  "home_team": "Tampa Bay Buccaneers",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
+ },
+ "9255ca8f32aea590d00aa57de79f6bb6": {
+  "away_score": 33,
+  "away_team": "Arizona Cardinals",
+  "closing_consensus": -7.0,
+  "home_margin": -3,
+  "home_score": 30,
+  "home_team": "Dallas Cowboys",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
+ },
  "95c01d1bb797d6df14824b106c5a9130": {
   "away_score": 13,
   "away_team": "Atlanta Falcons",
@@ -669,6 +729,16 @@
   "recorded_at": "2026-10-05T19:46:13+00:00",
   "week": 4
  },
+ "98f1b121b793977434c046e76c707145": {
+  "away_score": 38,
+  "away_team": "Las Vegas Raiders",
+  "closing_consensus": -1.5,
+  "home_margin": -5,
+  "home_score": 33,
+  "home_team": "New York Jets",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
+ },
  "99a9bae4dc0dc2590496bd3102b211f2": {
   "away_score": 17,
   "away_team": "Green Bay Packers",
@@ -678,6 +748,16 @@
   "home_team": "Tampa Bay Buccaneers",
   "recorded_at": "2026-10-05T19:46:13+00:00",
   "week": 4
+ },
+ "9c5d8f57e0ba0fbd9ef436c1f0898f99": {
+  "away_score": 36,
+  "away_team": "Tennessee Titans",
+  "closing_consensus": -13.0,
+  "home_margin": 7,
+  "home_score": 43,
+  "home_team": "Cincinnati Bengals",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
  },
  "9d14f87600f6edc74dbcb5c74edf6246": {
   "away_score": 3,
@@ -739,6 +819,16 @@
   "recorded_at": "2026-10-30T12:47:11+00:00",
   "week": 8
  },
+ "ab5ab731ab655bd6308bc7a922275518": {
+  "away_score": 6,
+  "away_team": "Cleveland Browns",
+  "closing_consensus": -3.5,
+  "home_margin": 21,
+  "home_score": 27,
+  "home_team": "Pittsburgh Steelers",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
+ },
  "acc580d74344ea3b31bbcdd057fe6a9c": {
   "away_score": 27,
   "away_team": "San Francisco 49ers",
@@ -789,6 +879,16 @@
   "recorded_at": "2026-09-14T16:56:35+00:00",
   "week": 1
  },
+ "b9c60db63b1a19ad319f24b33c0defe8": {
+  "away_score": 10,
+  "away_team": "Philadelphia Eagles",
+  "closing_consensus": -6.5,
+  "home_margin": 17,
+  "home_score": 27,
+  "home_team": "Washington Commanders",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
+ },
  "be5dd120ca08b43d647b6caa8953500a": {
   "away_score": 28,
   "away_team": "Miami Dolphins",
@@ -838,6 +938,16 @@
   "home_team": "Las Vegas Raiders",
   "recorded_at": "2026-09-14T16:56:35+00:00",
   "week": 1
+ },
+ "c93c421e5fa46031a43162d111d981d0": {
+  "away_score": 10,
+  "away_team": "Baltimore Ravens",
+  "closing_consensus": -3.0,
+  "home_margin": 26,
+  "home_score": 36,
+  "home_team": "Buffalo Bills",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
  },
  "c9d8ed8aa4889486eaf10a630138ede0": {
   "away_score": 30,
@@ -1008,6 +1118,16 @@
   "home_team": "Tampa Bay Buccaneers",
   "recorded_at": "2026-09-28T18:35:21+00:00",
   "week": 3
+ },
+ "f2a036d5edf483a277880014861e78ad": {
+  "away_score": 24,
+  "away_team": "Kansas City Chiefs",
+  "closing_consensus": 1.0,
+  "home_margin": 4,
+  "home_score": 28,
+  "home_team": "Denver Broncos",
+  "recorded_at": "2026-11-02T15:41:05+00:00",
+  "week": 8
  },
  "f3992ad4496724baf7dcd1ef58245d6b": {
   "away_score": 10,
