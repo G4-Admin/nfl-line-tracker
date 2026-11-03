@@ -579,6 +579,16 @@
   "recorded_at": "2026-10-19T13:02:24+00:00",
   "week": 6
  },
+ "7d664fbcd39350e559d83c0068ba7169": {
+  "away_score": 34,
+  "away_team": "Chicago Bears",
+  "closing_consensus": -3.0,
+  "home_margin": -17,
+  "home_score": 17,
+  "home_team": "Seattle Seahawks",
+  "recorded_at": "2026-11-03T14:04:00+00:00",
+  "week": 8
+ },
  "7dddb296a42e7a41a774b24bd1709ce1": {
   "away_score": 23,
   "away_team": "New York Jets",
