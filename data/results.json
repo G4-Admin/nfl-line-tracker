@@ -639,6 +639,16 @@
   "recorded_at": "2026-09-21T17:00:02+00:00",
   "week": 2
  },
+ "74d39e19225caf211ad2c8eb4110179f": {
+  "away_score": 24,
+  "away_team": "Washington Commanders",
+  "closing_consensus": -2.0,
+  "home_margin": -3,
+  "home_score": 21,
+  "home_team": "New York Giants",
+  "recorded_at": "2026-11-13T14:29:13+00:00",
+  "week": 10
+ },
  "7c312fdf24fb35f58b0e07c2932cc997": {
   "away_score": 31,
   "away_team": "Chicago Bears",
