@@ -419,6 +419,16 @@
   "recorded_at": "2026-11-09T16:06:56+00:00",
   "week": 9
  },
+ "3a60ed1d20004aa4d4772b2c1a2272e7": {
+  "away_score": 20,
+  "away_team": "Cincinnati Bengals",
+  "closing_consensus": 6.0,
+  "home_margin": 2,
+  "home_score": 22,
+  "home_team": "Washington Commanders",
+  "recorded_at": "2026-11-24T17:34:55+00:00",
+  "week": 11
+ },
  "3bfd8bfb4b8e9a365a0877879b73b16b": {
   "away_score": 26,
   "away_team": "Los Angeles Rams",
