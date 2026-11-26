@@ -699,6 +699,16 @@
   "recorded_at": "2026-09-15T15:32:31+00:00",
   "week": 1
  },
+ "5b612899d6dcdf998107f2c6c6e49a58": {
+  "away_score": 13,
+  "away_team": "Green Bay Packers",
+  "closing_consensus": -2.5,
+  "home_margin": 13,
+  "home_score": 26,
+  "home_team": "Los Angeles Rams",
+  "recorded_at": "2026-11-26T16:48:00+00:00",
+  "week": 12
+ },
  "5d8d85473b87f772a979ecf294acab94": {
   "away_score": 30,
   "away_team": "Minnesota Vikings",
