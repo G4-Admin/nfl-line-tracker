@@ -519,6 +519,16 @@
   "recorded_at": "2026-10-12T20:15:16+00:00",
   "week": 5
  },
+ "44a3bcf5bd002583ddef2207a92dd977": {
+  "away_score": 5,
+  "away_team": "Denver Broncos",
+  "closing_consensus": 4.5,
+  "home_margin": 22,
+  "home_score": 27,
+  "home_team": "Pittsburgh Steelers",
+  "recorded_at": "2026-11-28T15:26:07+00:00",
+  "week": 12
+ },
  "44d8c37868b700e90f816db7c5df5cdd": {
   "away_score": 19,
   "away_team": "Detroit Lions",
